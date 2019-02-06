@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: center;
   margin-top: var(--myApp-global--spacer--md);
+  flex-direction: column;
 }
 
 .notification-container {
