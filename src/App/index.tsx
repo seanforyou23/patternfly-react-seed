@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { Alert, AlertActionCloseButton } from '@patternfly/react-core';
 import './app.css';
+// import './ts-examples/basics/type-annotations';
+// import './ts-examples/basics/type-interfaces';
+// import './ts-examples/basics/classes-beginner';
+import './ts-examples/basics/classes-intermediate';
 
 export default class App extends Component {
   public state = {
