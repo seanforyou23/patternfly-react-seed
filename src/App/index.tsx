@@ -4,7 +4,9 @@ import './app.css';
 // import './ts-examples/basics/type-annotations';
 // import './ts-examples/basics/type-interfaces';
 // import './ts-examples/basics/classes-beginner';
-import './ts-examples/basics/classes-intermediate';
+// import './ts-examples/basics/classes-intermediate';
+// import './ts-examples/ts-3/tuples-rest';
+import './ts-examples/ts-3/tuples-spread';
 
 export default class App extends Component {
   public state = {
