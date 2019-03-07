@@ -6,7 +6,8 @@ import './app.css';
 // import './ts-examples/basics/classes-beginner';
 // import './ts-examples/basics/classes-intermediate';
 // import './ts-examples/ts-3/tuples-rest';
-import './ts-examples/ts-3/tuples-spread';
+// import './ts-examples/ts-3/tuples-spread';
+import './ts-examples/ts-3/type-unknown';
 
 export default class App extends Component {
   public state = {
