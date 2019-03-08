@@ -7,7 +7,8 @@ import './app.css';
 // import './ts-examples/basics/classes-intermediate';
 // import './ts-examples/ts-3/tuples-rest';
 // import './ts-examples/ts-3/tuples-spread';
-import './ts-examples/ts-3/type-unknown';
+// import './ts-examples/ts-3/type-unknown';
+import Modal from './react-stuff/Confirm';
 
 export default class App extends Component {
   public state = {
@@ -19,15 +20,17 @@ export default class App extends Component {
       <div className="app-container">
         {isShowing && (
           <div className="notification-container">
-            <Alert
+            {/* <Alert
               variant="success"
               title="Setup Complete"
               action={<AlertActionCloseButton onClose={this.dismissNotification} />}
             >
               You have successfully launched your patternfly starter project.
-            </Alert>
+            </Alert> */}
+            <Modal title="This is the Title" content="This is the content" />
           </div>
         )}
+
       </div>
     );
   }
