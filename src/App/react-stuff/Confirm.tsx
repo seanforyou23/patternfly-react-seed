@@ -5,6 +5,9 @@ interface IProps {
   content: string;
   cancelCaption?: string;
   okCaption?: string;
+  onOk?: () => void;
+  onCancel?: () => void;
+  open: boolean;
 }
 
 class Confirm extends React.Component<IProps> {
@@ -12,9 +15,23 @@ class Confirm extends React.Component<IProps> {
     cancelCaption: 'Cancel',
     okCaption: 'Okay'
   }
+  // using arrow functions in event handlers is one way to treat the "this" problem
+  private handleOkClick = () => {
+    this.props.onOk && this.props.onOk();
+  }
+  private handleCancelClick = () => {
+    this.props.onCancel && this.props.onCancel();
+  }
+  private classes = () => {
+    let classList = ['confirm-wrapper'];
+    this.props.open
+      ? classList.push('confirm-visible')
+      : classList.filter((el) => !(el === 'confirm-visible'));
+    return classList.join(' ');
+  }
   public render() {
     return (
-      <div className="confirm-wrapper confirm-visiable">
+      <div className={this.classes()}>
         <div className="confirm-container">
           <div className="confirm-title-container">
             <span>{this.props.title}</span>
@@ -23,8 +40,8 @@ class Confirm extends React.Component<IProps> {
             <p>{this.props.content}</p>
           </div>
           <div className="confirm-buttons-container">
-            <button className="confirm-cancel">{this.props.cancelCaption}</button>
-            <button className="confirm-ok">{this.props.okCaption}</button>
+            <button className="confirm-cancel" onClick={this.handleCancelClick}>{this.props.cancelCaption}</button>
+            <button className="confirm-ok" onClick={this.handleOkClick}>{this.props.okCaption}</button>
           </div>
         </div>
       </div>

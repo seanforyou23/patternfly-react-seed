@@ -10,28 +10,82 @@ import './app.css';
 // import './ts-examples/ts-3/type-unknown';
 import Modal from './react-stuff/Confirm';
 
-export default class App extends Component {
-  public state = {
-    isShowing: true
-  };
-  public render() {
-    const { isShowing } = this.state;
-    return (
-      <div className="app-container">
-        {isShowing && (
-          <div className="notification-container">
-            {/* <Alert
-              variant="success"
-              title="Setup Complete"
-              action={<AlertActionCloseButton onClose={this.dismissNotification} />}
-            >
-              You have successfully launched your patternfly starter project.
-            </Alert> */}
-            <Modal title="This is the Title" content="This is the content" />
-          </div>
-        )}
+interface IState {
+  isShowing: boolean;
+  confirmOpen: boolean;
+  confirmMsg: string;
+}
 
-      </div>
+// props is first param and state is second
+// if a component requires no props, supply an empty obj
+// TODO: why doesn't Confirm.tsx require this object as first param?
+export default class App extends Component<{}, IState> {
+  // using a constructor
+  // constructor(props: {}) {
+  //   super(props);
+  //   this.state = {
+  //     confirmOpen: false,
+  //     isShowing: false
+  //   }
+  // }
+  // without a constructor
+  public state = {
+    isShowing: true,
+    confirmOpen: false,
+    confirmMsg: ''
+  };
+  private openDialog = () => {
+    this.setState({
+      confirmOpen: true
+    });
+  }
+  private launchAlert = () => {
+    this.setState({
+      isShowing: true
+    });
+  }
+  private handleCancelConfirm = () => {
+    this.setState({
+      confirmOpen: false,
+      confirmMsg: 'You canceled'
+    });
+  }
+  private handleOkConfirm = () => {
+    this.setState({
+      confirmOpen: false,
+      confirmMsg: 'You pressed Ok btn'
+    });
+  }
+  public render() {
+    const { isShowing, confirmOpen, confirmMsg } = this.state;
+    return (
+      <React.Fragment>
+        <button type="button" onClick={this.openDialog}>Open Dialog</button>
+        <button type="button" onClick={this.launchAlert}>Launch Alert</button>
+        <p>{confirmMsg}</p>
+        <div className="app-container">
+          {isShowing && (
+            <div className="notification-container">
+              <Alert
+                variant="success"
+                title="Setup Complete"
+                action={<AlertActionCloseButton onClose={this.dismissNotification} />}
+              >
+                You have successfully launched your patternfly starter project.
+              </Alert>
+            </div>
+          )}
+
+          <Modal
+            title="React & Typescript"
+            content="Are you sure you want to learn React & TS?"
+            onCancel={this.handleCancelConfirm}
+            onOk={this.handleOkConfirm}
+            open={confirmOpen}
+            />
+
+        </div>
+      </React.Fragment>
     );
   }
   private dismissNotification = () => {
