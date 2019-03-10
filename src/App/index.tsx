@@ -8,18 +8,90 @@ import './app.css';
 // import './ts-examples/ts-3/tuples-rest';
 // import './ts-examples/ts-3/tuples-spread';
 // import './ts-examples/ts-3/type-unknown';
-import Modal from './react-stuff/Confirm';
+// import Modal from './react-stuff/Confirm';
+import Modal from './react-stuff/function-components';
 
 interface IState {
   isShowing: boolean;
   confirmOpen: boolean;
-  confirmMsg: string;
+  confirmBtnVisible: boolean;
+  feedbackMsg: string;
+  countDown: number;
 }
 
 // props is first param and state is second
 // if a component requires no props, supply an empty obj
 // TODO: why doesn't Confirm.tsx require this object as first param?
 export default class App extends Component<{}, IState> {
+
+  private handleConfirm = () => {
+    window.clearInterval(this.timer);
+  }
+
+  private timer: number = 0;
+
+  private renderCount: number = 0;
+
+  private openDialog = () => {
+    this.setState({
+      confirmOpen: true
+    });
+  }
+
+  private launchAlert = () => {
+    this.setState({
+      isShowing: true
+    });
+  }
+
+  private handleCancelConfirm = () => {
+    this.setState({
+      confirmOpen: false,
+      feedbackMsg: 'You canceled'
+    });
+    window.clearInterval(this.timer);
+  }
+
+  private handleOkConfirm = () => {
+    this.setState({
+      confirmOpen: false,
+      feedbackMsg: 'You pressed Ok btn'
+    });
+    window.clearInterval(this.timer);
+  }
+
+  private handleTimer = () => {
+    console.log(this.state);
+    this.setState({
+      countDown: this.state.countDown - 1,
+      feedbackMsg: `${this.state.countDown - 1} seconds to go`
+    },
+    () => {
+      if (this.state.countDown <= 0) {
+        window.clearInterval(this.timer);
+        this.setState({
+          confirmOpen: false,
+          confirmBtnVisible: false,
+          feedbackMsg: 'Too late to confirm!'
+        });
+      }
+    });
+
+    // wrong - setState is async, move this code to the setState callback
+    // if (this.state.countDown <= 0) {
+    //   window.clearInterval(this.timer);
+    //   this.setState({
+    //     confirmOpen: false
+    //   });
+    // }
+  }
+
+  private dismissNotification = () => {
+    this.setState({ isShowing: false });
+  };
+
+  private countDownStartingVal = 5;
+
   // using a constructor
   // constructor(props: {}) {
   //   super(props);
@@ -29,40 +101,78 @@ export default class App extends Component<{}, IState> {
   //   }
   // }
   // without a constructor
-  public state = {
+  public state: IState = {
     isShowing: true,
     confirmOpen: false,
-    confirmMsg: ''
+    confirmBtnVisible: true,
+    feedbackMsg: `${this.countDownStartingVal} seconds to go`,
+    countDown: this.countDownStartingVal
   };
-  private openDialog = () => {
-    this.setState({
-      confirmOpen: true
+
+  public startTimer = () => {
+    this.timer = window.setInterval(() => {
+      this.handleTimer();
+    }, 1000);
+  }
+
+  public componentDidMount() {
+    this.startTimer();
+  }
+
+  // invoked just before the component is removed from the DOM
+  public componentWillUnmount() {
+    window.clearInterval(this.timer);
+  }
+
+  // getDerivedStateFromProps is invoked every time a component is rendered
+  // Can be used to change state when certain props change
+  // Returns the changed state or null if there are no changes to the state
+  public static getDerivedStateFromProps(props: {}, state: IState) {
+    console.log('getDerivedStateFromProps', props, state);
+    return null;
+  }
+
+  // invoked just before rendering happens
+  // returns a boolean that determines whether rendering updates to the DOM should happen
+  public shouldComponentUpdate(nextProps: {}, nextState: IState) {
+    console.log('shouldComponentUpdate', nextProps, nextState);
+    return true;
+  }
+
+  // getSnapshotBeforeUpdate is called just before the DOM is updated
+  // value that is returned here is passed on to componentDidUpdate
+  public getSnapshotBeforeUpdate(prevProps: {}, prevState: IState) {
+    this.renderCount += 1;
+    console.log('getSnapshotBeforeUpdate', prevProps, prevState, {renderCount: this.renderCount});
+    return this.renderCount;
+    // return 'foo';
+  }
+
+  // componentDidUpdate is called as soon as the DOM is updated
+  public componentDidUpdate(prevProps: {}, prevState: IState, snapshot: number) {
+    // console.log('componentDidUpdate', prevProps, prevState, snapshot, {
+    //   renderCount: this.renderCount
+    // });
+    console.log('componentDidUpdate prevProps: ', prevProps);
+    console.log('componentDidUpdate prevState: ', prevState);
+    console.log('componentDidUpdate snapshot: ', snapshot);
+    console.log('componentDidUpdate renderCount: ', {
+      renderCount: this.renderCount
     });
   }
-  private launchAlert = () => {
-    this.setState({
-      isShowing: true
-    });
-  }
-  private handleCancelConfirm = () => {
-    this.setState({
-      confirmOpen: false,
-      confirmMsg: 'You canceled'
-    });
-  }
-  private handleOkConfirm = () => {
-    this.setState({
-      confirmOpen: false,
-      confirmMsg: 'You pressed Ok btn'
-    });
-  }
+
   public render() {
-    const { isShowing, confirmOpen, confirmMsg } = this.state;
+    const { isShowing, confirmOpen, feedbackMsg, confirmBtnVisible } = this.state;
     return (
       <React.Fragment>
         <button type="button" onClick={this.openDialog}>Open Dialog</button>
         <button type="button" onClick={this.launchAlert}>Launch Alert</button>
-        <p>{confirmMsg}</p>
+
+        {confirmBtnVisible && (
+          <button type="button" onClick={this.handleConfirm}>Confirm</button>
+        )}
+
+        <p>{feedbackMsg}</p>
         <div className="app-container">
           {isShowing && (
             <div className="notification-container">
@@ -88,7 +198,4 @@ export default class App extends Component<{}, IState> {
       </React.Fragment>
     );
   }
-  private dismissNotification = () => {
-    this.setState({ isShowing: false });
-  };
 }
