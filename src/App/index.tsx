@@ -10,6 +10,7 @@ import './app.css';
 // import './ts-examples/ts-3/type-unknown';
 // import Modal from './react-stuff/Confirm';
 import Modal from './react-stuff/function-components';
+import AudioScript from './react-stuff/audio-component';
 
 interface IState {
   isShowing: boolean;
@@ -167,6 +168,7 @@ export default class App extends Component<{}, IState> {
       <React.Fragment>
         <button type="button" onClick={this.openDialog}>Open Dialog</button>
         <button type="button" onClick={this.launchAlert}>Launch Alert</button>
+        <AudioScript />
 
         {confirmBtnVisible && (
           <button type="button" onClick={this.handleConfirm}>Confirm</button>
@@ -195,6 +197,7 @@ export default class App extends Component<{}, IState> {
             />
 
         </div>
+
       </React.Fragment>
     );
   }
