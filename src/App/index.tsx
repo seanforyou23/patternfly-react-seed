@@ -73,6 +73,7 @@ export default class App extends Component<{}, IState> {
       if (this.state.countDown <= 0) {
         window.clearInterval(this.timer);
         this.setState({
+          confirmOpen: false,
           confirmBtnVisible: false,
           feedbackMsg: 'Too late to confirm!'
         });
@@ -92,7 +93,7 @@ export default class App extends Component<{}, IState> {
     this.setState({ isShowing: false });
   };
 
-  private countDownStartingVal = 5;
+  private countDownStartingVal = 10;
 
   // using a constructor
   // constructor(props: {}) {
@@ -206,7 +207,7 @@ export default class App extends Component<{}, IState> {
             open={confirmOpen}
             /> */}
 
-          {countDown > 0 &&
+          {countDown > 0 && (
             <SFConfirm
               title="React & Typescript"
               content="Are you sure you want to learn React & TS?"
@@ -214,9 +215,7 @@ export default class App extends Component<{}, IState> {
               onOk={this.handleOkConfirm}
               open={confirmOpen}
               />
-          }
-
-
+          )}
         </div>
 
       </React.Fragment>

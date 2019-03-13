@@ -11,6 +11,7 @@ interface IProps {
 }
 
 const SFConfirm: React.FunctionComponent<IProps> = (props) => {
+  console.log('SFConfirm rendering');
   const [cancelClickCount, setCancelClickCount] = React.useState(0); // create a state & destructure the resulting array
 
   // second param of useEffect is an array of values which determines
@@ -22,7 +23,9 @@ const SFConfirm: React.FunctionComponent<IProps> = (props) => {
     console.log('Open changed');
   }, [props.open]); // hook into when the open prop changes
 
-  React.useEffect(() => { return () => { console.log('Confirm unmounted'); } }); // hook into when a component is unmounted
+  React.useEffect(() => { return () => {
+    // console.log('Confirm unmounted');
+  } }); // hook into when a component is unmounted
 
   // using arrow functions in event handlers is one way to treat the "this" problem
   const handleOkClick = () => {
@@ -67,4 +70,6 @@ SFConfirm.defaultProps = {
   okCaption: 'Okay'
 }
 
-export { SFConfirm };
+const SFConfirmMemo = React.memo(SFConfirm); // built in memoization!
+
+export { SFConfirmMemo as SFConfirm };
