@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Alert, AlertActionCloseButton } from '@patternfly/react-core';
 import './app.css';
+import { Title } from '@patternfly/react-core';
 // import './ts-examples/basics/type-annotations';
 // import './ts-examples/basics/type-interfaces';
 // import './ts-examples/basics/classes-beginner';
@@ -9,8 +10,9 @@ import './app.css';
 // import './ts-examples/ts-3/tuples-spread';
 // import './ts-examples/ts-3/type-unknown';
 // import Modal from './react-stuff/Confirm';
-import Modal from './react-stuff/function-components';
-import AudioList from './react-stuff/AudioList';
+// import { FSConfirm } from './react-stuff/function-components'; // functional stateless
+// import AudioList from './react-stuff/AudioList';
+import { SFConfirm } from './react-stuff/stateful-functional-component'; // stateful function components
 
 interface IState {
   isShowing: boolean;
@@ -62,7 +64,7 @@ export default class App extends Component<{}, IState> {
   }
 
   private handleTimer = () => {
-    console.log(this.state);
+    // console.log(this.state);
     this.setState({
       countDown: this.state.countDown - 1,
       feedbackMsg: `${this.state.countDown - 1} seconds to go`
@@ -71,7 +73,6 @@ export default class App extends Component<{}, IState> {
       if (this.state.countDown <= 0) {
         window.clearInterval(this.timer);
         this.setState({
-          confirmOpen: false,
           confirmBtnVisible: false,
           feedbackMsg: 'Too late to confirm!'
         });
@@ -129,14 +130,14 @@ export default class App extends Component<{}, IState> {
   // Can be used to change state when certain props change
   // Returns the changed state or null if there are no changes to the state
   public static getDerivedStateFromProps(props: {}, state: IState) {
-    console.log('getDerivedStateFromProps', props, state);
+    // console.log('getDerivedStateFromProps', props, state);
     return null;
   }
 
   // invoked just before rendering happens
   // returns a boolean that determines whether rendering updates to the DOM should happen
   public shouldComponentUpdate(nextProps: {}, nextState: IState) {
-    console.log('shouldComponentUpdate', nextProps, nextState);
+    // console.log('shouldComponentUpdate', nextProps, nextState);
     return true;
   }
 
@@ -144,7 +145,7 @@ export default class App extends Component<{}, IState> {
   // value that is returned here is passed on to componentDidUpdate
   public getSnapshotBeforeUpdate(prevProps: {}, prevState: IState) {
     this.renderCount += 1;
-    console.log('getSnapshotBeforeUpdate', prevProps, prevState, {renderCount: this.renderCount});
+    // console.log('getSnapshotBeforeUpdate', prevProps, prevState, {renderCount: this.renderCount});
     return this.renderCount;
     // return 'foo';
   }
@@ -154,21 +155,22 @@ export default class App extends Component<{}, IState> {
     // console.log('componentDidUpdate', prevProps, prevState, snapshot, {
     //   renderCount: this.renderCount
     // });
-    console.log('componentDidUpdate prevProps: ', prevProps);
-    console.log('componentDidUpdate prevState: ', prevState);
-    console.log('componentDidUpdate snapshot: ', snapshot);
-    console.log('componentDidUpdate renderCount: ', {
-      renderCount: this.renderCount
-    });
+    // console.log('componentDidUpdate prevProps: ', prevProps);
+    // console.log('componentDidUpdate prevState: ', prevState);
+    // console.log('componentDidUpdate snapshot: ', snapshot);
+    // console.log('componentDidUpdate renderCount: ', {
+    //   renderCount: this.renderCount
+    // });
   }
 
   public render() {
-    const { isShowing, confirmOpen, feedbackMsg, confirmBtnVisible } = this.state;
+    const { isShowing, confirmOpen, feedbackMsg, confirmBtnVisible, countDown } = this.state;
     return (
       <React.Fragment>
+        {/* <Title size="2xl" headingLevel="h1">DC</Title> */}
         <button type="button" onClick={this.openDialog}>Open Dialog</button>
         <button type="button" onClick={this.launchAlert}>Launch Alert</button>
-        <AudioList />
+        {/* <AudioList /> */}
 
         {confirmBtnVisible && (
           <button type="button" onClick={this.handleConfirm}>Confirm</button>
@@ -188,13 +190,32 @@ export default class App extends Component<{}, IState> {
             </div>
           )}
 
-          <Modal
+          {/* <Modal
             title="React & Typescript"
             content="Are you sure you want to learn React & TS?"
             onCancel={this.handleCancelConfirm}
             onOk={this.handleOkConfirm}
             open={confirmOpen}
-            />
+            /> */}
+
+          {/* <FSConfirm
+            title="React & Typescript"
+            content="Are you sure you want to learn React & TS?"
+            onCancel={this.handleCancelConfirm}
+            onOk={this.handleOkConfirm}
+            open={confirmOpen}
+            /> */}
+
+          {countDown > 0 &&
+            <SFConfirm
+              title="React & Typescript"
+              content="Are you sure you want to learn React & TS?"
+              onCancel={this.handleCancelConfirm}
+              onOk={this.handleOkConfirm}
+              open={confirmOpen}
+              />
+          }
+
 
         </div>
 

@@ -11,4 +11,3 @@ export const AudioControl: React.FunctionComponent<IProps> = (props) => {
   );
 }
 
-// export AudioControl;

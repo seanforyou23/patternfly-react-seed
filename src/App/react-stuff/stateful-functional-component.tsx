@@ -10,14 +10,30 @@ interface IProps {
   open: boolean;
 }
 
-const FSConfirm: React.FunctionComponent<IProps> = (props) => {
+const SFConfirm: React.FunctionComponent<IProps> = (props) => {
+  const [cancelClickCount, setCancelClickCount] = React.useState(0); // create a state & destructure the resulting array
+
+  // second param of useEffect is an array of values which determines
+  // when our arrow function is called (when those array values change)
+  // React.useEffect(() => {
+  //   console.log('SFConfirm first rendering');
+  // }, []); // [] = will never be called after the initial render
+  React.useEffect(() => {
+    console.log('Open changed');
+  }, [props.open]); // hook into when the open prop changes
+
+  React.useEffect(() => { return () => { console.log('Confirm unmounted'); } }); // hook into when a component is unmounted
 
   // using arrow functions in event handlers is one way to treat the "this" problem
   const handleOkClick = () => {
     props.onOk && props.onOk();
   }
   const handleCancelClick = () => {
-    props.onCancel && props.onCancel();
+    const newCount = cancelClickCount + 1; // create a new variable to hold the new state value
+    setCancelClickCount(newCount); // update the hook state
+    if (newCount > 2) {
+      props.onCancel && props.onCancel();
+    }
   }
   const classes = () => {
     let classList = ['confirm-wrapper'];
@@ -36,7 +52,9 @@ const FSConfirm: React.FunctionComponent<IProps> = (props) => {
           <p>{props.content}</p>
         </div>
         <div className="confirm-buttons-container">
-          <button className="confirm-cancel" onClick={handleCancelClick}>{props.cancelCaption}</button>
+          <button className="confirm-cancel" onClick={handleCancelClick}>
+            {cancelClickCount === 0 ? props.cancelCaption : 'Really?'}
+          </button>
           <button className="confirm-ok" onClick={handleOkClick}>{props.okCaption}</button>
         </div>
       </div>
@@ -44,9 +62,9 @@ const FSConfirm: React.FunctionComponent<IProps> = (props) => {
   );
 }
 
-FSConfirm.defaultProps = {
+SFConfirm.defaultProps = {
   cancelCaption: 'Cancel',
   okCaption: 'Okay'
 }
 
-export { FSConfirm };
+export { SFConfirm };
