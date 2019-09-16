@@ -67,7 +67,13 @@
     "@patternfly/react-core": "^3.77.2",
     "@patternfly/react-icons": "^3.10.15",
     "@patternfly/react-styles": "^3.5.7",
+    "lodash": "^4.17.15",
+    "react-dnd": "^9.3.4",
+    "react-dnd-html5-backend": "^9.3.4",
     "react-router-dom": "^5.0.1",
-    "react-router-last-location": "^2.0.1"
+    "react-router-last-location": "^2.0.1",
+    "reactabular-dnd": "^8.16.0",
+    "reactabular-table": "^8.14.0",
+    "table-resolver": "^4.1.1"
   }
 }

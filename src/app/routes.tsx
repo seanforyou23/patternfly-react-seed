@@ -5,6 +5,7 @@ import { DynamicImport } from '@app/DynamicImport';
 import { accessibleRouteChangeHandler } from '@app/utils/utils';
 import { Dashboard } from '@app/Dashboard/Dashboard';
 import { NotFound } from '@app/NotFound/NotFound';
+import { ColReorderableTable } from '@app/Table/ColReorderTable';
 import { useDocumentTitle } from '@app/utils/useDocumentTitle';
 import { LastLocationProvider, useLastLocation } from 'react-router-last-location';
 
@@ -64,6 +65,15 @@ const routes: IAppRoute[] = [
     label: 'Support',
     path: '/support',
     title: 'Support Page Title'
+  },
+  {
+    component: ColReorderableTable,
+    exact: true,
+    icon: null,
+    isAsync: false,
+    label: 'Column Reorder Table',
+    path: '/column-reorder-table',
+    title: 'Reorderable Column Table Page Title'
   }
 ];
 
