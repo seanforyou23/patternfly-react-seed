@@ -77,6 +77,7 @@
     "@patternfly/react-core": "^3.77.2",
     "@patternfly/react-icons": "^3.10.15",
     "@patternfly/react-styles": "^3.5.7",
+    "@patternfly/react-table": "file:.yalc/@patternfly/react-table",
     "react-router-dom": "^5.0.1",
     "react-router-last-location": "^2.0.1"
   }

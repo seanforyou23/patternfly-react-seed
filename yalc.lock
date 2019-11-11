@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "@patternfly/react-table": {
+      "signature": "f354e8f226e747cc46e487f682593564",
+      "file": true,
+      "replaced": "^2.24.17"
+    }
+  }
+}
