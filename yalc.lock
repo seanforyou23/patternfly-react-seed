@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "@patternfly/react-core": {
+      "signature": "31d686790b95437e21b163f4aae1e7db",
+      "file": true,
+      "replaced": "^3.77.2"
+    }
+  }
+}
