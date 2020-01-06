@@ -11,7 +11,7 @@ const PaginationTable = () => {
 
   const handlePerPageSelect: OnPerPageSelect = (_evt, newPerPage, newPage = 1, startIdx, endIdx) => {
     setNumPerPage(newPerPage);
-    setCurrentPage(newPage);
+    // setCurrentPage(newPage);
     setRows(defaultRows.slice(startIdx, endIdx));
   };
 
@@ -42,7 +42,7 @@ const PaginationTable = () => {
         defaultToFullPage
         perPageOptions={[{ title: "2", value: 2 }, { title: "3", value: 3 }, { title: "100", value: 100 }]} />
 
-      <Table actions={myActions} variant="compact" caption="Patternfly React Table" cells={columns} rows={rows}>
+      <Table variant="compact" caption="Patternfly React Table" cells={columns} rows={rows}>
         <TableHeader />
         <TableBody />
       </Table>
