@@ -5,7 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const TerserJSPlugin = require('terser-webpack-plugin');
 
-module.exports = merge(common, {
+module.exports = merge(common('production'), {
   mode: 'production',
   devtool: 'source-map',
   optimization: {
@@ -14,12 +14,6 @@ module.exports = merge(common, {
       new OptimizeCSSAssetsPlugin({})
     ],
   },
-  plugins: [
-    new MiniCssExtractPlugin({
-      filename: '[name].css',
-      chunkFilename: '[name].bundle.css'
-    })
-  ],
   module: {
     rules: [
       {

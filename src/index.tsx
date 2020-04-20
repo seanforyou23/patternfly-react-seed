@@ -1,3 +1,12 @@
+
+// const foo = require('dotenv').config();
+// import { config, load } from 'dotenv';
+// import dotenv from 'dotenv';
+// const foo = dotenv.config();
+// console.log(foo);
+// import path from 'path';
+// console.log(path.resolve(process.cwd(), '.env'));
+
 import React from "react";
 import ReactDOM from "react-dom";
 import { App } from '@app/index';

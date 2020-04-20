@@ -21,7 +21,7 @@ Install development/build dependencies
 Start the development server
 `npm run start:dev`
 
-Run a production build
+Run a production build (outputs to "dist" dir)
 `npm run build`
 
 Run the test suite
@@ -38,6 +38,12 @@ Launch a tool to inspect the bundle size
 
 Start the express server (run a production build first)
 `npm run start`
+
+Start storybook component explorer
+`npm run storybook`
+
+Build storybook component explorer as standalone app (outputs to "storybook-static" dir)
+`npm run build:storybook`
 
 ## Configurations
 * [TypeScript Config](./tsconfig.json)
@@ -83,3 +89,13 @@ body {
 * To keep our code formatting in check, we use [prettier](https://github.com/prettier/prettier)
 * To keep our code logic and test coverage in check, we use [jest](https://github.com/facebook/jest)
 * To ensure code styles remain consistent, we use [eslint](https://eslint.org/)
+* To provide a place to showcase custom components, we integrate with [storybook](https://storybook.js.org/)
+
+## Multi environment configuration
+To set an environment variable based on development vs production mode, create an `.env` file in the root of the repo. Inside this file, specify a key that is set to a stringified object containing "development" and "production" properties, which hold the values you want to make available. For example;
+
+```sh
+API_ENDPOINT={"development": "http://dev.myendpoint.com", "production": "http://prod.myendpoint.com"}
+```
+
+The name of the key (in this case API_ENDPOINT) can be anything you want. To refer to this in your code, simply reference process.env.API_BASE. The key "API_BASE" is configurable from webpack.common.js in case you want to change it to something more relevant.
