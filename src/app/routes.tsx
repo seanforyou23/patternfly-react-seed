@@ -1,41 +1,17 @@
 import * as React from 'react';
 import { Route, RouteComponentProps, Switch } from 'react-router-dom';
-import { Alert, PageSection } from '@patternfly/react-core';
-import { DynamicImport } from '@app/DynamicImport';
 import { accessibleRouteChangeHandler } from '@app/utils/utils';
-import { Dashboard } from '@app/Dashboard/Dashboard';
 import { NotFound } from '@app/NotFound/NotFound';
 import { useDocumentTitle } from '@app/utils/useDocumentTitle';
 import { LastLocationProvider, useLastLocation } from 'react-router-last-location';
+import { InaccessibleCat } from '@app/SVG/InaccessibleCat';
+import { AccessibleCat01 } from '@app/SVG/AccessibleCat01';
+import { AccessibleCat02 } from '@app/SVG/AccessibleCat02';
+import { AccessibleCat03 } from '@app/SVG/AccessibleCat03';
+import { InaccessibleStackChart } from '@app/SVG/InaccessibleStackChart';
+import { AccessibleStackChart } from '@app/SVG/AccessibleStackChart';
 
 let routeFocusTimer: number;
-
-const getSupportModuleAsync = () => () => import(/* webpackChunkName: 'support' */ '@app/Support/Support');
-
-const Support = (routeProps: RouteComponentProps) => {
-  const lastNavigation = useLastLocation();
-  return (
-    /* eslint-disable @typescript-eslint/no-explicit-any */
-    <DynamicImport load={getSupportModuleAsync()} focusContentAfterMount={lastNavigation !== null}>
-      {(Component: any) => {
-        let loadedComponent: any;
-        /* eslint-enable @typescript-eslint/no-explicit-any */
-        if (Component === null) {
-          loadedComponent = (
-            <PageSection aria-label="Loading Content Container">
-              <div className="pf-l-bullseye">
-                <Alert title="Loading" className="pf-l-bullseye__item" />
-              </div>
-            </PageSection>
-          );
-        } else {
-          loadedComponent = <Component.Support {...routeProps} />;
-        }
-        return loadedComponent;
-      }}
-    </DynamicImport>
-  );
-};
 
 export interface IAppRoute {
   label?: string;
@@ -50,20 +26,53 @@ export interface IAppRoute {
 
 const routes: IAppRoute[] = [
   {
-    component: Dashboard,
-    exact: true,
-    label: 'Dashboard',
-    path: '/',
-    title: 'PatternFly Seed | Main Dashboard',
-  },
-  {
-    component: Support,
+    component: InaccessibleCat,
     exact: true,
     isAsync: true,
-    label: 'Support',
-    path: '/support',
-    title: 'PatternFly Seed | Support Page',
+    label: 'InaccessibleCat',
+    path: '/',
+    title: 'Stub',
   },
+  {
+    component: AccessibleCat01,
+    exact: true,
+    isAsync: true,
+    label: 'AccessibleCat01',
+    path: '/accessible-cat-01',
+    title: 'Stub',
+  },
+  {
+    component: AccessibleCat02,
+    exact: true,
+    isAsync: true,
+    label: 'Title + desc elements',
+    path: '/accessible-cat-02',
+    title: 'Accessible SVG using title and desc elements',
+  },
+  {
+    component: AccessibleCat03,
+    exact: true,
+    isAsync: true,
+    label: 'Aria-labels',
+    path: '/accessible-cat-03',
+    title: 'Accessible SVG using aria-label',
+  },
+  {
+    component: InaccessibleStackChart,
+    exact: true,
+    isAsync: true,
+    label: 'Inaccessible StackChart',
+    path: '/inaccessible-stack-chart',
+    title: 'Current PatternFly Stack Chart',
+  },
+  {
+    component: AccessibleStackChart,
+    exact: true,
+    isAsync: true,
+    label: 'Accessible StackChart',
+    path: '/accessible-stack-chart',
+    title: 'Modified PatternFly Stack Chart',
+  }
 ];
 
 // a custom hook for sending focus to the primary content container
