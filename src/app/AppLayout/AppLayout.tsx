@@ -7,7 +7,8 @@ import {
   Page,
   PageHeader,
   PageSidebar,
-  SkipToContent
+  SkipToContent,
+  Button
 } from '@patternfly/react-core';
 import { routes } from '@app/routes';
 
@@ -60,9 +61,11 @@ const AppLayout: React.FunctionComponent<IAppLayout> = ({children}) => {
       isNavOpen={isMobileView ? isNavOpenMobile : isNavOpen} />
   );
   const PageSkipToContent = (
-    <SkipToContent href="#primary-app-container">
+    <Button className="pf-c-skip-to-content" onClick={() => {
+      document.getElementById('primary-app-container')?.focus();
+    }}>
       Skip to Content
-    </SkipToContent>
+    </Button>
   );
   return (
     <Page

@@ -5,13 +5,12 @@ const AccessibleCat03: React.FunctionComponent<{}> = () => (
   <PageSection>
     <svg
       role="group"
-      aria-labelledby="title desc"
+      aria-label="An accessible cat"
       width={140}
       height={170}
       tabIndex={0}
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink">
-      <title id="title">A semetrical cat</title>
       <desc id="desc">This stick figure of a cat has been vectorized with svg.</desc>
 
       {/* The circle for the head */}
@@ -39,6 +38,7 @@ const AccessibleCat03: React.FunctionComponent<{}> = () => (
       <polyline
         tabIndex={0}
         aria-label="Ears"
+        aria-describedby="desc"
         points="108 62, 90 10, 70 45, 50, 10, 32, 62"
         style={{ stroke: 'black', fill: 'none' }} />
 
@@ -46,6 +46,7 @@ const AccessibleCat03: React.FunctionComponent<{}> = () => (
       <polyline
         tabIndex={0}
         aria-label="Mouth"
+        aria-describedby="desc"
         points="35 110, 45 120, 95 120, 105, 110"
         style={{ stroke: 'black', fill: 'none' }} />
 
@@ -55,6 +56,7 @@ const AccessibleCat03: React.FunctionComponent<{}> = () => (
         name="nose"
         tabIndex={0}
         aria-label="Nose"
+        aria-describedby="desc"
         d="M 75 90 L 65 90 A 5 10 0 0 0 75 90"
         style={{ stroke: 'black', fill: '#ffcccc' }} />
     </svg>

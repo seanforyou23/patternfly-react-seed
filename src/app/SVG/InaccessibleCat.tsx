@@ -1,9 +1,12 @@
 import * as React from 'react';
-import { PageSection } from '@patternfly/react-core';
+import { PageSection, Title } from '@patternfly/react-core';
 
 const InaccessibleCat: React.FunctionComponent<{}> = () => (
   <PageSection>
+    <Title headingLevel="h1">Inaccessible Cat</Title>
+    <p>Notice this cat, while carrying an accessible name and even a description, isn't very accessible. This svg uses a similar strategy as we do in PF charts by using role="img" and attaching an accessible name/description and calling it a day.</p>
     <svg
+      role="img"
       aria-labelledby="title desc"
       aria-hidden="false"
       width={140}
@@ -23,10 +26,7 @@ const InaccessibleCat: React.FunctionComponent<{}> = () => (
       <circle cx="85" cy="80" r="5" style={{ stroke: 'black', fill: '339933' }} />
 
       {/* Right wiskers */}
-      {/* Each group may also have its own title and desc to identify it for text-based XML apps or assistive technology */}
-      <g id="wiskers" tabIndex={0} aria-labelledby="wiskers-title" aria-describedby="wiskers-desc">
-        <title id="wiskers-title">Some wiskers for a cat</title>
-        <desc id="wiskers-desc">These wiskers are sementrical.</desc>
+      <g id="wiskers">
         <line x1="75" y1="95" x2="135" y2="85" style={{ stroke: 'black' }} />
         <line x1="75" y1="95" x2="135" y2="105" style={{ stroke: 'black' }} />
       </g>
