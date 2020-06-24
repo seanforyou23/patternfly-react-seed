@@ -14,81 +14,85 @@ const AccessibleStackChart: React.FunctionComponent<{}> = () => (
       height="250"
       role="group"
       aria-label="Stack chart example"
-      aria-describedby="victory-container-28-desc"
+      aria-describedby="chart-description"
       viewBox="0 0 600 250"
       style={{ pointerEvents: 'all', width: '100%', height: 'auto' }}>
-      <desc id="victory-container-28-desc">Average number of pets</desc>
+      <desc id="chart-description">Average number of pets</desc>
       {/* x-axis stuff */}
       <g role="presentation">
-        <line vectorEffect="non-scaling-stroke"  shapeRendering="auto" x1="50" x2="400" y1="200" y2="200" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', strokeWidth: '1', strokeLinecap: 'round', strokeLinejoin: 'round' }}></line>
-        <g>
+        <line role="presentation" vectorEffect="non-scaling-stroke" shapeRendering="auto" x1="50" x2="400" y1="200" y2="200" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', strokeWidth: '1', strokeLinecap: 'round', strokeLinejoin: 'round' }}></line>
+        <g id="label-2015" aria-labelledby="datapoint-2015" aria-describedby="desc-2015" role="presentation">
+          <desc id="desc-2015">The average number of pets for this year was 10</desc>
           {/* @ts-ignore */}
-          <line vectorEffect="non-scaling-stroke" role="presentation" shapeRendering="auto" x1="79.3731652564324" x2="79.3731652564324" y1="200" y2="205" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', size: '5px', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '1' }}></line>
-          <text direction="inherit" dx="0" dy="11.969999999999999" x="79.3731652564324" y="215" id="chart-axis-0-tickLabels-0">
-            <tspan id="datapoint-2015" x="79.3731652564324" dx="0" textAnchor="middle" style={{ fontFamily: 'var(--pf-chart-global--FontFamily)', fontSize: '14px', letterSpacing: 'var(--pf-chart-global--letter-spacing)', padding: '10px', stroke: 'transparent', fill: 'rgb(79, 82, 85)' }}>2015</tspan>
+          <line role="presentation" vectorEffect="non-scaling-stroke" shapeRendering="auto" x1="79.3731652564324" x2="79.3731652564324" y1="200" y2="205" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', size: '5px', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '1' }}></line>
+          <text role="presentation" direction="inherit" dx="0" dy="11.969999999999999" x="79.3731652564324" y="215" id="chart-axis-0-tickLabels-0">
+            <tspan aria-describedby="label-2015" id="datapoint-2015" x="79.3731652564324" dx="0" textAnchor="middle" style={{ fontFamily: 'var(--pf-chart-global--FontFamily)', fontSize: '14px', letterSpacing: 'var(--pf-chart-global--letter-spacing)', padding: '10px', stroke: 'transparent', fill: 'rgb(79, 82, 85)' }}>2015</tspan>
           </text>
         </g>
-        <g>
+        <g id="label-2016" aria-labelledby="datapoint-2016" aria-describedby="desc-2016" role="presentation">
+          <desc id="desc-2016">The average number of pets for this year was 10</desc>
           {/* @ts-ignore */}
-          <line vectorEffect="non-scaling-stroke" role="presentation" shapeRendering="auto" x1="178.08956426639037" x2="178.08956426639037" y1="200" y2="205" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', size: '5px', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '1' }}></line>
-          <text direction="inherit" dx="0" dy="11.969999999999999" x="178.08956426639037" y="215" id="chart-axis-0-tickLabels-1">
+          <line role="presentation" vectorEffect="non-scaling-stroke" shapeRendering="auto" x1="178.08956426639037" x2="178.08956426639037" y1="200" y2="205" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', size: '5px', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '1' }}></line>
+          <text role="presentation" direction="inherit" dx="0" dy="11.969999999999999" x="178.08956426639037" y="215" id="chart-axis-0-tickLabels-1">
             <tspan id="datapoint-2016" x="178.08956426639037" dx="0" textAnchor="middle" style={{ fontFamily: 'var(--pf-chart-global--FontFamily)', fontSize: '14px', letterSpacing: 'var(--pf-chart-global--letter-spacing)', padding: '10px', stroke: 'transparent', fill: 'rgb(79, 82, 85)' }}>2016</tspan>
           </text>
         </g>
-        <g>
+        <g id="label-2017" aria-labelledby="datapoint-2017" aria-describedby="desc-2017" role="presentation">
+          <desc id="desc-2017">The average number of pets for this year was 29</desc>
           {/* @ts-ignore */}
-          <line vectorEffect="non-scaling-stroke" role="presentation" shapeRendering="auto" x1="276.8059632763484" x2="276.8059632763484" y1="200" y2="205" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', size: '5px', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '1' }}></line>
-          <text direction="inherit" dx="0" dy="11.969999999999999" x="276.8059632763484" y="215" id="chart-axis-0-tickLabels-2">
+          <line role="presentation" vectorEffect="non-scaling-stroke" shapeRendering="auto" x1="276.8059632763484" x2="276.8059632763484" y1="200" y2="205" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', size: '5px', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '1' }}></line>
+          <text role="presentation" direction="inherit" dx="0" dy="11.969999999999999" x="276.8059632763484" y="215" id="chart-axis-0-tickLabels-2">
             <tspan id="datapoint-2017" x="276.8059632763484" dx="0" textAnchor="middle" style={{ fontFamily: 'var(--pf-chart-global--FontFamily)', fontSize: '14px', letterSpacing: 'var(--pf-chart-global--letter-spacing)', padding: '10px', stroke: 'transparent', fill: 'rgb(79, 82, 85)' }}>2017</tspan>
           </text>
         </g>
-        <g>
+        <g id="label-2018" aria-labelledby="datapoint-2018" aria-describedby="desc-2018" role="presentation">
+          <desc id="desc-2018">The average number of pets for this year was 19</desc>
           {/* @ts-ignore */}
-          <line vectorEffect="non-scaling-stroke" role="presentation" shapeRendering="auto" x1="375.52236228630636" x2="375.52236228630636" y1="200" y2="205" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', size: '5px', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '1' }}></line>
-          <text direction="inherit" dx="0" dy="11.969999999999999" x="375.52236228630636" y="215" id="chart-axis-0-tickLabels-3">
+          <line role="presentation" vectorEffect="non-scaling-stroke" shapeRendering="auto" x1="375.52236228630636" x2="375.52236228630636" y1="200" y2="205" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', size: '5px', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '1' }}></line>
+          <text role="presentation" direction="inherit" dx="0" dy="11.969999999999999" x="375.52236228630636" y="215" id="chart-axis-0-tickLabels-3">
             <tspan id="datapoint-2018" x="375.52236228630636" dx="0" textAnchor="middle" style={{ fontFamily: 'var(--pf-chart-global--FontFamily)', fontSize: '14px', letterSpacing: 'var(--pf-chart-global--letter-spacing)', padding: '10px', stroke: 'transparent', fill: 'rgb(79, 82, 85)' }}>2018</tspan>
           </text>
         </g>
       </g>
       {/* y-axis stuff */}
       <g aria-hidden="true">
-        <line vectorEffect="non-scaling-stroke" role="presentation" shapeRendering="auto" x1="50" x2="50" y1="50" y2="200" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', strokeWidth: '1', strokeLinecap: 'round', strokeLinejoin: 'round' }}></line>
+        <line vectorEffect="non-scaling-stroke" shapeRendering="auto" x1="50" x2="50" y1="50" y2="200" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', strokeWidth: '1', strokeLinecap: 'round', strokeLinejoin: 'round' }}></line>
         <g>
-          <line vectorEffect="non-scaling-stroke" role="presentation" shapeRendering="auto" x1="50" x2="400" y1="174.13793103448276" y2="174.13793103448276" style={{ stroke: 'rgb(210, 210, 210)', fill: 'none', pointerEvents: 'painted', strokeLinecap: 'round', strokeLinejoin: 'round' }}></line>
+          <line vectorEffect="non-scaling-stroke" shapeRendering="auto" x1="50" x2="400" y1="174.13793103448276" y2="174.13793103448276" style={{ stroke: 'rgb(210, 210, 210)', fill: 'none', pointerEvents: 'painted', strokeLinecap: 'round', strokeLinejoin: 'round' }}></line>
           {/* @ts-ignore */}
-          <line vectorEffect="non-scaling-stroke" role="presentation" shapeRendering="auto" x1="50" x2="45" y1="174.13793103448276" y2="174.13793103448276" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', size: '5px', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '1' }}></line>
+          <line vectorEffect="non-scaling-stroke" shapeRendering="auto" x1="50" x2="45" y1="174.13793103448276" y2="174.13793103448276" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', size: '5px', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '1' }}></line>
           <text direction="inherit" dx="0" dy="4.97" x="35" y="174.13793103448276" id="chart-axis-1-tickLabels-0">
             <tspan x="35" dx="0" textAnchor="end" style={{ fontFamily: 'var(--pf-chart-global--FontFamily)', fontSize: '14px', letterSpacing: 'var(--pf-chart-global--letter-spacing)', padding: '10px', stroke: 'transparent', fill: 'rgb(79, 82, 85)' }}>5</tspan>
           </text>
         </g>
         <g>
-          <line vectorEffect="non-scaling-stroke" role="presentation" shapeRendering="auto" x1="50" x2="400" y1="148.27586206896552" y2="148.27586206896552" style={{ stroke: 'rgb(210, 210, 210)', fill: 'none', pointerEvents: 'painted', strokeLinecap: 'round', strokeLinejoin: 'round' }}></line>
+          <line vectorEffect="non-scaling-stroke" shapeRendering="auto" x1="50" x2="400" y1="148.27586206896552" y2="148.27586206896552" style={{ stroke: 'rgb(210, 210, 210)', fill: 'none', pointerEvents: 'painted', strokeLinecap: 'round', strokeLinejoin: 'round' }}></line>
           {/* @ts-ignore */}
-          <line vectorEffect="non-scaling-stroke" role="presentation" shapeRendering="auto" x1="50" x2="45" y1="148.27586206896552" y2="148.27586206896552" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', size: '5px', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '1' }}></line>
+          <line vectorEffect="non-scaling-stroke" shapeRendering="auto" x1="50" x2="45" y1="148.27586206896552" y2="148.27586206896552" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', size: '5px', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '1' }}></line>
           <text direction="inherit" dx="0" dy="4.97" x="35" y="148.27586206896552" id="chart-axis-1-tickLabels-1">
             <tspan x="35" dx="0" textAnchor="end" style={{ fontFamily: 'var(--pf-chart-global--FontFamily)', fontSize: '14px', letterSpacing: 'var(--pf-chart-global--letter-spacing)', padding: '10px', stroke: 'transparent', fill: 'rgb(79, 82, 85)' }}>10</tspan>
           </text>
         </g>
         <g>
-          <line vectorEffect="non-scaling-stroke" role="presentation" shapeRendering="auto" x1="50" x2="400" y1="122.41379310344827" y2="122.41379310344827" style={{ stroke: 'rgb(210, 210, 210)', fill: 'none', pointerEvents: 'painted', strokeLinecap: 'round', strokeLinejoin: 'round' }}></line>
+          <line vectorEffect="non-scaling-stroke" shapeRendering="auto" x1="50" x2="400" y1="122.41379310344827" y2="122.41379310344827" style={{ stroke: 'rgb(210, 210, 210)', fill: 'none', pointerEvents: 'painted', strokeLinecap: 'round', strokeLinejoin: 'round' }}></line>
           {/* @ts-ignore */}
-          <line vectorEffect="non-scaling-stroke" role="presentation" shapeRendering="auto" x1="50" x2="45" y1="122.41379310344827" y2="122.41379310344827" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', size: '5px', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '1' }}></line>
+          <line vectorEffect="non-scaling-stroke" shapeRendering="auto" x1="50" x2="45" y1="122.41379310344827" y2="122.41379310344827" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', size: '5px', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '1' }}></line>
           <text direction="inherit" dx="0" dy="4.97" x="35" y="122.41379310344827" id="chart-axis-1-tickLabels-2">
             <tspan x="35" dx="0" textAnchor="end" style={{ fontFamily: 'var(--pf-chart-global--FontFamily)', fontSize: '14px', letterSpacing: 'var(--pf-chart-global--letter-spacing)', padding: '10px', stroke: 'transparent', fill: 'rgb(79, 82, 85)' }}>15</tspan>
           </text>
         </g>
         <g>
-          <line vectorEffect="non-scaling-stroke" role="presentation" shapeRendering="auto" x1="50" x2="400" y1="96.55172413793102" y2="96.55172413793102" style={{ stroke: 'rgb(210, 210, 210)', fill: 'none', pointerEvents: 'painted', strokeLinecap: 'round', strokeLinejoin: 'round' }}></line>
+          <line vectorEffect="non-scaling-stroke" shapeRendering="auto" x1="50" x2="400" y1="96.55172413793102" y2="96.55172413793102" style={{ stroke: 'rgb(210, 210, 210)', fill: 'none', pointerEvents: 'painted', strokeLinecap: 'round', strokeLinejoin: 'round' }}></line>
           {/* @ts-ignore */}
-          <line vectorEffect="non-scaling-stroke" role="presentation" shapeRendering="auto" x1="50" x2="45" y1="96.55172413793102" y2="96.55172413793102" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', size: '5px', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '1' }}></line>
+          <line vectorEffect="non-scaling-stroke" shapeRendering="auto" x1="50" x2="45" y1="96.55172413793102" y2="96.55172413793102" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', size: '5px', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '1' }}></line>
           <text direction="inherit" dx="0" dy="4.97" x="35" y="96.55172413793102" id="chart-axis-1-tickLabels-3">
             <tspan x="35" dx="0" textAnchor="end" style={{ fontFamily: 'var(--pf-chart-global--FontFamily)', fontSize: '14px', letterSpacing: 'var(--pf-chart-global--letter-spacing)', padding: '10px', stroke: 'transparent', fill: 'rgb(79, 82, 85)' }}>20</tspan>
           </text>
         </g>
         <g>
-          <line vectorEffect="non-scaling-stroke" role="presentation" shapeRendering="auto" x1="50" x2="400" y1="70.68965517241381" y2="70.68965517241381" style={{ stroke: 'rgb(210, 210, 210)', fill: 'none', pointerEvents: 'painted', strokeLinecap: 'round', strokeLinejoin: 'round' }}></line>
+          <line vectorEffect="non-scaling-stroke" shapeRendering="auto" x1="50" x2="400" y1="70.68965517241381" y2="70.68965517241381" style={{ stroke: 'rgb(210, 210, 210)', fill: 'none', pointerEvents: 'painted', strokeLinecap: 'round', strokeLinejoin: 'round' }}></line>
           {/* @ts-ignore */}
-          <line vectorEffect="non-scaling-stroke" role="presentation" shapeRendering="auto" x1="50" x2="45" y1="70.68965517241381" y2="70.68965517241381" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', size: '5px', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '1' }}></line>
+          <line vectorEffect="non-scaling-stroke" shapeRendering="auto" x1="50" x2="45" y1="70.68965517241381" y2="70.68965517241381" style={{ stroke: 'rgb(210, 210, 210)', fill: 'transparent', size: '5px', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: '1' }}></line>
           <text direction="inherit" dx="0" dy="4.97" x="35" y="70.68965517241381" id="chart-axis-1-tickLabels-4">
             <tspan x="35" dx="0" textAnchor="end" style={{ fontFamily: 'var(--pf-chart-global--FontFamily)', fontSize: '14px', letterSpacing: 'var(--pf-chart-global--letter-spacing)', padding: '10px', stroke: 'transparent', fill: 'rgb(79, 82, 85)' }}>25</tspan>
           </text>
