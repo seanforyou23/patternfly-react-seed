@@ -4,9 +4,9 @@ import { PageSection, Title, TextContent, Text, Tooltip } from '@patternfly/reac
 const AccessibleCat01: React.FunctionComponent<{}> = () => (
   <PageSection>
     <TextContent>
-      <Title headingLevel="h1">Barely accessible cat</Title>
+      <Title headingLevel="h1">O'Reilly the barely accessible cat</Title>
       <Text>Notice that with this cat, we're using a role of group for the svg root instead of "img" and also add some tab stops to certain elements within the svg, this allows us to drill down into and traverse the svg parts and not be limited to a single label/description for the entire svg (which is more a strategy for making svg <em>icons</em> accessible - a very different story than making an svg canvas application accessible, like we have with PF charts).</Text>
-      <Text>This also means that when using VO cursor navigation, users will have to comb over every single path of the svg which is a lot to wade through. For path parts that don't relay any meaningful value, we should just hide them from SRU with role="presentation" or aria-hidden="true"</Text>
+      <Text>This also means that when using VO cursor navigation, users will have to comb over every single path of the svg which is a lot to wade through. For path parts that don't relay any meaningful value, we should just hide them from SRU with <code>role="presentation"</code> or <code>aria-hidden="true"</code></Text>
       <Text></Text>
       <Text>Notice that by assigning label/descriptions to the &lt;<Tooltip content="Each group may also have its own title and desc to identify it for text-based XML apps or assistive technology"><b>g</b></Tooltip>&gt; elements (and even individual path elements!) we can effectively describe logical sections of the svg. In this example, we've given label/description to the wisker groups and the individual wisker paths. A problem exists though, how does the SRU distinguish between the top/bottom wiskers of the left vs the right? While similar in value, the context is what makes them different. We'll explore how to improve this in the next example.</Text>
       <Text>A final problem to call out is that of the annoying hover tooltip that's produced from using the title element. While helping assistive technology, this can sometimes cause a degraded experience for sighted users by the tooltip overlaying other svg content. We'll improve this also in the next example.</Text>
@@ -21,8 +21,8 @@ const AccessibleCat01: React.FunctionComponent<{}> = () => (
       tabIndex={0}
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink">
-      <title id="title">A sementrical cat</title>
-      <desc id="desc">This stick figure of a cat has been vectorized with svg.</desc>
+      <title id="title">O'Reilly</title>
+      <desc id="desc">A stick figure cat</desc>
 
       {/* The circle for the head */}
       <circle cx="70" cy="95" r="50" style={{ stroke: 'black', fill: 'none' }} />

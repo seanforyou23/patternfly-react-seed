@@ -4,21 +4,21 @@ import { PageSection, TextContent, Title, Text } from '@patternfly/react-core';
 const AccessibleCat02: React.FunctionComponent<{}> = () => (
   <PageSection>
     <TextContent>
-      <Title headingLevel="h1">Accessible cat</Title>
+      <Title headingLevel="h1">O'Reilly the accessible cat</Title>
       <Text>With this cat svg, the first thing to notice is that we replace aria-labelledby/title elements with explicit aria-label(s). We still get the accessible name for the svg, but it doesn't show up on hover. We leave the desc elements in tact as they serve a further purpose of providing <em>context</em> around other datapoints within the graph.</Text>
-      <Text>Next thing to notice is that we carefully hide from SRUs whatever parts of the svg we don't intend on relayin to the user with role="presentation", so that users only traverse things which have some semantic/contextual value. This helps streamline the navigation experience.</Text>
+      <Text>Next thing to notice is that we carefully hide from SRUs whatever parts of the svg we don't intend on relayin to the user with <code>role="presentation"</code>, so that users only traverse things which have some semantic/contextual value. This helps streamline the navigation experience.</Text>
       <Text>Notice that while the wisker paths are accessible to both screen reader users and sighted keyboard users, the other svg parts like the Ears, Mouth, and Nose don't carry tabindex and so are really only consumable by SRU. This descrepency between sighted and unsighted experience is something to think more about, probably some level of difference is acceptable, but where to draw this line?</Text>
     </TextContent>
     <svg
       role="group"
-      aria-label="An accessible cat"
+      aria-label="O'Reilly"
       aria-describedby="image-desc"
       width={140}
       height={170}
       tabIndex={0}
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink">
-      <desc id="image-desc">Stick figure of a cat.</desc>
+      <desc id="image-desc">A stick figure cat</desc>
 
       {/* The circle for the head */}
       <circle role="presentation" cx="70" cy="95" r="50" style={{ stroke: 'black', fill: 'none' }} />

@@ -3,8 +3,8 @@ import { PageSection, Title } from '@patternfly/react-core';
 
 const InaccessibleCat: React.FunctionComponent<{}> = () => (
   <PageSection>
-    <Title headingLevel="h1">Inaccessible Cat</Title>
-    <p>Notice this cat, while carrying an accessible name and even a description, isn't very accessible. This svg uses a similar strategy as we do in PF charts by using role="img" and attaching an accessible name/description and calling it a day.</p>
+    <Title headingLevel="h1">O'Reilly the inaccessible cat</Title>
+    <p>Notice this cat, while carrying an accessible name and even a description, isn't very accessible. This svg uses a similar strategy as we do in <code>{`@patternfly/react-{charts,icons}`}</code> by using <code>role="img"</code> and attaching an accessible name/description and calling it a day.</p>
     <svg
       role="img"
       aria-labelledby="title desc"
@@ -13,8 +13,8 @@ const InaccessibleCat: React.FunctionComponent<{}> = () => (
       height={170}
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink">
-      <title id="title">A sementrical cat</title>
-      <desc id="desc">This stick figure of a cat has been vectorized with svg.</desc>
+      <title id="title">O'Reilly</title>
+      <desc id="desc">A stick figure cat</desc>
 
       {/* The circle for the head */}
       <circle cx="70" cy="95" r="50" style={{ stroke: 'black', fill: 'none' }} />

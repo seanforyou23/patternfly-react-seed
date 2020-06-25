@@ -5,7 +5,7 @@ const InaccessibleStackChart: React.FunctionComponent<{}> = () => (
   <PageSection>
     <TextContent>
     <Title headingLevel="h1">This is a stacked chart as produced by latest patternfly charts pkg</Title>
-      <Text>This chart is very similar to the first inaccessible cat example, in that the root svg element carries role="img" which prevents the user from drilling down into the svg parts. You basically get the one main label/description of the svg and that's it. In the next example, we'll make this experience much richer by allowing some level of interactivity and context for the individual datapoints.</Text>
+      <Text>This chart is very similar to the first inaccessible cat example, in that the root svg element carries <code>role="img"</code> which prevents the user from drilling down into the svg parts. You basically get the one main label/description of the svg and that's it. In the next example, we'll make this experience much richer by allowing some level of interactivity and context for the individual datapoints.</Text>
     </TextContent>
 
     <svg width="600" height="250" role="img" aria-labelledby="victory-container-28-title" aria-describedby="victory-container-28-desc" viewBox="0 0 600 250" style={{ pointerEvents: 'all', width: '100%', height: 'auto' }}>
