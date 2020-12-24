@@ -14,6 +14,18 @@ module.exports = env => {
     module: {
       rules: [
         {
+          test: /\.md$/,
+          use: [
+            {
+              loader: "html-loader"
+            },
+            {
+              loader: "markdown-loader",
+              options: {}
+            }
+          ]
+        },
+        {
           test: /\.(tsx|ts|jsx)?$/,
           use: [
             {
