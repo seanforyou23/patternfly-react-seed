@@ -12,11 +12,11 @@ module.exports = merge(common('production'), {
   optimization: {
     minimizer: [
       new TerserJSPlugin({}),
-      new CssMinimizerPlugin({
-        minimizerOptions: {
-          preset: ['default', { mergeLonghand: false }]
-        }
-      })
+      // new CssMinimizerPlugin({
+      //   minimizerOptions: {
+      //     preset: ['default', { mergeLonghand: false }]
+      //   }
+      // })
     ],
   },
   plugins: [

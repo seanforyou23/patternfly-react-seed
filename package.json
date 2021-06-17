@@ -26,6 +26,9 @@
     "build:storybook": "build-storybook"
   },
   "devDependencies": {
+    "@patternfly/react-core": "^4.128.2",
+    "@patternfly/react-icons": "^4.10.11",
+    "@patternfly/react-styles": "^4.10.11",
     "@storybook/addon-actions": "^6.1.11",
     "@storybook/addon-info": "^5.3.21",
     "@storybook/addon-links": "^6.1.11",
@@ -77,9 +80,6 @@
     "webpack-merge": "^5.7.3"
   },
   "dependencies": {
-    "@patternfly/react-core": "^4.84.4",
-    "@patternfly/react-icons": "^4.7.22",
-    "@patternfly/react-styles": "^4.7.22",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-last-location": "^2.0.1",
