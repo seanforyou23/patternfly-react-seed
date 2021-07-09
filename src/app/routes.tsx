@@ -1,10 +1,12 @@
 import * as React from 'react';
 import { Route, RouteComponentProps, Switch } from 'react-router-dom';
 import { accessibleRouteChangeHandler } from '@app/utils/utils';
-import { Dashboard } from '@app/Dashboard/Dashboard';
-import { Support } from '@app/Support/Support';
-import { GeneralSettings } from '@app/Settings/General/GeneralSettings';
-import { ProfileSettings } from '@app/Settings/Profile/ProfileSettings';
+import { Customers } from '@app/Customers/Customers';
+import { CustomerDetail } from '@app/Customers/CustomerDetail';
+import { Orders } from '@app/Orders/Orders';
+import { OrderDetail } from '@app/Orders/OrderDetail';
+import { Crops } from '@app/Crops/Crops';
+import { CropDetail } from '@app/Crops/CropDetail';
 import { NotFound } from '@app/NotFound/NotFound';
 import { useDocumentTitle } from '@app/utils/useDocumentTitle';
 import { LastLocationProvider, useLastLocation } from 'react-router-last-location';
@@ -31,38 +33,46 @@ export type AppRouteConfig = IAppRoute | IAppRouteGroup;
 
 const routes: AppRouteConfig[] = [
   {
-    component: Dashboard,
+    component: Customers,
     exact: true,
-    label: 'Dashboard',
+    label: 'Customers',
     path: '/',
-    title: 'PatternFly Seed | Main Dashboard',
+    title: 'React App | Customer resource list',
   },
   {
-    component: Support,
+    component: CustomerDetail,
     exact: true,
     isAsync: true,
-    label: 'Support',
-    path: '/support',
-    title: 'PatternFly Seed | Support Page',
+    path: '/customers/detail/:id',
+    title: 'React App | Customer resource detail page',
   },
   {
-    label: 'Settings',
-    routes: [
-      {
-        component: GeneralSettings,
-        exact: true,
-        label: 'General',
-        path: '/settings/general',
-        title: 'PatternFly Seed | General Settings',
-      },
-      {
-        component: ProfileSettings,
-        exact: true,
-        label: 'Profile',
-        path: '/settings/profile',
-        title: 'PatternFly Seed | Profile Settings',
-      },
-    ],
+    component: Orders,
+    exact: true,
+    label: 'Orders',
+    path: '/orders',
+    title: 'React App | Orders resource list',
+  },
+  {
+    component: OrderDetail,
+    exact: true,
+    isAsync: true,
+    path: '/orders/detail/:id',
+    title: 'React App | Order resource detail page',
+  },
+  {
+    component: Crops,
+    exact: true,
+    label: 'Crops',
+    path: '/crops',
+    title: 'React App | Crops resource list',
+  },
+  {
+    component: CropDetail,
+    exact: true,
+    isAsync: true,
+    path: '/crops/detail/:slug',
+    title: 'React App | Crop resource detail page',
   },
 ];
 
