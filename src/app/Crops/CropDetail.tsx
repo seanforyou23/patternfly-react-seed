@@ -15,15 +15,14 @@ import {
   DescriptionListDescription
 } from '@patternfly/react-core';
 import { WikipediaWIcon } from '@patternfly/react-icons';
-import crops from '@app/Crops/crops.json';
-import cropsDetails from '@app/Crops/cropDetails.json';
-import { useHistory } from 'react-router-dom';
+import crops from '@app/Crops/trimmedCropsData.json';
+import cropsDetails from '@app/Crops/trimmedCropDetails.json';
 export interface ICropDetailProps {
   sampleProp?: string;
 }
 
 let CropDetail: React.FunctionComponent<ICropDetailProps> = (props) => {
-  const history = useHistory();
+
   const [cropData, setCropData] = React.useState<any>();
   let timer;
 
@@ -69,6 +68,7 @@ let CropDetail: React.FunctionComponent<ICropDetailProps> = (props) => {
               <Grid className="pf-m-all-5-col-on-md">
                 <GridItem className="pf-d-card__media-item">
                   <BackgroundImage style={{
+                    minHeight: '100px',
                     height: '100%',
                     background: `center / cover url('${cropData.thumbnail_url}')`
                   }} src={cropData.avatar} />

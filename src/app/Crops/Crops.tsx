@@ -17,7 +17,7 @@ import {
 } from '@patternfly/react-core';
 import { useHistory } from 'react-router-dom';
 import { InfoAltIcon, UserAltIcon } from '@patternfly/react-icons'; '@patternfly/react-icons';
-import crops from '@app/Crops/crops.json';
+import crops from '@app/Crops/trimmedCropsData.json';
 
 const Crops: React.FunctionComponent = () => {
   const [cropData, setCropData] = React.useState<any>([]);

@@ -1,0 +1,1522 @@
+[
+  {
+    "name": "tomato",
+    "description": null,
+    "slug": "tomato",
+    "alternate_names": [
+      "🍅 "
+    ],
+    "scientific_names": [
+      "Solanum lycopersicum"
+    ],
+    "harvests_count": 75,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5dc3618ef2c1020004f936e4.jpg?1573085580",
+    "scientific_name": "Solanum lycopersicum",
+    "id": "216"
+  },
+  {
+    "name": "lettuce",
+    "description": "Lettuce is a cool weather crop and high temperatures will impede germination and/or cause the plant to bolt (go to seed quickly). Some hybrid cultivars have been bred to be more heat-resistant.",
+    "slug": "lettuce",
+    "alternate_names": [],
+    "scientific_names": [
+      "Lactuca sativa"
+    ],
+    "harvests_count": 46,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b87bafe8d750003000424.jpg?1466664889",
+    "scientific_name": "Lactuca sativa",
+    "id": "113"
+  },
+  {
+    "name": "carrot",
+    "description": "The carrot is a root vegetable. It is usually orange in color, but some cultivars are purple, black, red, white, and yellow. The most commonly eaten part of the plant is the taproot, but the greens are sometimes eaten as well. The leaves appear first, and the taproot grows more slowly beneath the soil. Fast-growing cultivars mature within three months of sowing the seed. Slower-maturing cultivars are harvested four months after sowing.",
+    "slug": "carrot",
+    "alternate_names": [],
+    "scientific_names": [
+      "Daucus carota"
+    ],
+    "harvests_count": 45,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/58c312395865650004000000.jpg?1489179191",
+    "scientific_name": "Daucus carota",
+    "id": "37"
+  },
+  {
+    "name": "basil",
+    "description": null,
+    "slug": "basil",
+    "alternate_names": [
+      "sweet basil"
+    ],
+    "scientific_names": [
+      "Ocimum basilicum"
+    ],
+    "harvests_count": 32,
+    "thumbnail_url": "https://farm8.staticflickr.com/7170/6734610637_59860abf8e_z.jpg",
+    "scientific_name": "Ocimum basilicum",
+    "id": "20"
+  },
+  {
+    "name": "coriander",
+    "description": "Coriander is the English (UK) name for Cilantro. In America, Coriander is used to refer to the dried round seeds of the Cilantro plant, which have a warm, spicy flavor and are used in curries, pickles, sausages, soups, and stews. The essential oil of the seeds is used in herbal remedies and dietary supplements, and to flavor liqueurs, gin, vermouth, tobacco, and perfumes. Cilantro is an annual herb in the Apiaceae family with soft leaves that are broadly lobed at the base of the plant and become slender and feathery higher up the stems. The leaves will be ready to harvest within 50-55 days, the seeds take up to 100 days to mature and then need to be dried.",
+    "slug": "coriander",
+    "alternate_names": [
+      "cilantro",
+      "dhania",
+      "chinese parsley"
+    ],
+    "scientific_names": [
+      "Coriandrum sativum"
+    ],
+    "harvests_count": 49,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/49065680116_5978d31318_z.jpg",
+    "scientific_name": "Coriandrum sativum",
+    "id": "60"
+  },
+  {
+    "name": "cucumber",
+    "description": null,
+    "slug": "cucumber",
+    "alternate_names": [
+      "🥒 "
+    ],
+    "scientific_names": [
+      "Cucumis sativus"
+    ],
+    "harvests_count": 39,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b7849fe8d750003000307.jpg?1466660936",
+    "scientific_name": "Cucumis sativus",
+    "id": "64"
+  },
+  {
+    "name": "broccoli",
+    "description": "Broccoli has large flower heads known as \"crowns\" that are green to blue-green in color, grouped tightly together atop a thick stem, and surrounded by leaves. Broccoli resembles cauliflower, a different cultivar in its species. It thrives in cool weather.",
+    "slug": "broccoli",
+    "alternate_names": [
+      "brocoli",
+      "broccolli"
+    ],
+    "scientific_names": [
+      "Brassica oleracea",
+      "Brassica oleracea Italica group"
+    ],
+    "harvests_count": 33,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b74d6fe8d7500030002f2.jpg?1466660052",
+    "scientific_name": "Brassica oleracea",
+    "id": "30"
+  },
+  {
+    "name": "rosemary",
+    "description": "Rosmarinus officinalis, commonly known as rosemary, is a woody, perennial herb with fragrant, evergreen, needle-like leaves and white, pink, purple, or blue flowers, native to the Mediterranean region.\nIt is a member of the mint family Lamiaceae, which includes many other herbs. The name \"rosemary\" derives from the Latin for \"dew\" (ros) and \"sea\" (marinus), or \"dew of the sea\". The plant is also sometimes called 'anthos', from the ancient Greek word ἄνθος, meaning \"flower\". Rosemary has a fibrous root system.",
+    "slug": "rosemary",
+    "alternate_names": [
+      "anthos"
+    ],
+    "scientific_names": [
+      "Rosmarinus officinalis",
+      "Rosemarinus officinalis"
+    ],
+    "harvests_count": 44,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/58e32c3d4bca6f0004000006.jpg?1491283003",
+    "scientific_name": "Rosmarinus officinalis",
+    "id": "180"
+  },
+  {
+    "name": "strawberry",
+    "description": "Strawberries are a hybrid species of the genus Fragaria that produce sweet, bright red fruits. \n\nThere are three main types of strawberries: \n\n1) summer-fruiting: produce a single, large crop of fruit the year after planting. To grow, transplant plugs or crowns in early spring in rows spaced at least 120cm apart. Pinch off all flowers the first season and train the plant's runners, pressing them into the soil 15-22cm apart from the mother plant. Mulch with straw or pine needles in the fall when the plants have died back. When the plants start to grow back in the spring, move the mulch aside. After harvest the second season, set a lawnmower to about 10cm high and mow, being sure not to damage crowns.\n\n The other two types are \n\n2) Ever-bearing and 3) Day Neutral, both of which send out less runners and bear several crops of smaller fruit throughout the season. These two types can be grown using raised beds about 20cm high and 60cm wide. Transplant crowns or plugs in staggered double rows, about 30cm apart. Remove runners and flowers until July of the first year to give the roots time to develop, and then allow plants to produce fruit. All types of strawberries begin to produce fewer and less sweet fruit once they are two years or older. Because strawberries are a hybrid, seeds will not breed true. Strawberries are predominantly propagated using bare root plugs or crowns or dividing runners. Make sure not to bury the crown when transplanting plugs.",
+    "slug": "strawberry",
+    "alternate_names": [
+      "garden strawberry"
+    ],
+    "scientific_names": [
+      "Fragaria ananassa"
+    ],
+    "harvests_count": 28,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5a2091c44ef55e0004000009.jpg?1512083907",
+    "scientific_name": "Fragaria ananassa",
+    "id": "203"
+  },
+  {
+    "name": "pea",
+    "description": null,
+    "slug": "pea",
+    "alternate_names": [],
+    "scientific_names": [
+      "Pisum sativum"
+    ],
+    "harvests_count": 19,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/49688343697_9ed3e7b2a9_z.jpg",
+    "scientific_name": "Pisum sativum",
+    "id": "146"
+  },
+  {
+    "name": "radish",
+    "description": "Radishes are fast-growing cool season root vegetables in the Brassica family. Their taproots come in variety of shapes, sizes, and colors and have a sharp, spicy taste. They are usually eaten raw and added to salads. Radishes need cool weather and moist soil - they do not do well in hot, dry environments. More growing information is available in individual species entries.",
+    "slug": "radish",
+    "alternate_names": [],
+    "scientific_names": [
+      "Raphanus sativus"
+    ],
+    "harvests_count": 28,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/49143810493_1321416c77_z.jpg",
+    "scientific_name": "Raphanus sativus",
+    "id": "172"
+  },
+  {
+    "name": "kale",
+    "description": "Kale is a cultivar of the species Brassica oleracea. It has green or purple leaves that branch off from one to multiple upright stems and do not form a head like cabbage. The plant is usually grown as an annual, but if grown as a perennial, it will form seeds in the second year. Current popular varieties include Curly kale, Italian kale, and Red Russian kale (green leaves with pale purple stems). It can be grown as baby salad greens or for bunching adult leaves. Leaves are sweeter after a frost and delicious eaten raw, added to salads, sautéed, or added to stews and casseroles.",
+    "slug": "kale",
+    "alternate_names": [
+      "borecole"
+    ],
+    "scientific_names": [
+      "Brassica oleracea (acephala)",
+      "Brassica oleracea Acephala group"
+    ],
+    "harvests_count": 22,
+    "thumbnail_url": "https://farm5.staticflickr.com/4781/27054110748_7b1538977a_z.jpg",
+    "scientific_name": "Brassica oleracea (acephala)",
+    "id": "102"
+  },
+  {
+    "name": "cherry tomato",
+    "description": "Cherry tomatoes range in size from a thumbtip to the size of a golf ball. Their shape ranges from spherical to slightly oblong to pointed at the bottom. They are often red, but can also be yellow, green, striped, and even black. More oblong cherry tomatoes often share characteristics with plum tomatoes, and are known as grape tomatoes. Cherry tomatoes can be quite sweet (such as the Sungold or Sunsweet yellow varieties), more traditionally acidic, or deep in flavor. They are delicious for snacking, in salads, lightly roasted or grilled, or baked. They require little to no pruning unlike larger tomato plants.",
+    "slug": "cherry-tomato",
+    "alternate_names": [],
+    "scientific_names": [
+      "Solanum lycopersicum var. cerasiforme"
+    ],
+    "harvests_count": 30,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/57073ec44a3af70003000008.jpg?1460092609",
+    "scientific_name": "Solanum lycopersicum var. cerasiforme",
+    "id": "397"
+  },
+  {
+    "name": "onion",
+    "description": ".",
+    "slug": "onion",
+    "alternate_names": [
+      "bulb onion",
+      "common onion"
+    ],
+    "scientific_names": [
+      "Allium cepa"
+    ],
+    "harvests_count": 19,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/56857be71083470003000000.jpg?1451588582",
+    "scientific_name": "Allium cepa",
+    "id": "140"
+  },
+  {
+    "name": "potato",
+    "description": "Potatoes are starchy root vegetables in the Solanaceae, or Nightshade, family, which also includes tomatoes, eggplants, and peppers. They originated in South America, and spread to become a worldwide staple. The leaves and fruit are usually poisonous and the stem tuber is the only edible part once it is cooked. The potato can be cooked in many ways, brewed into alcohol, and also used as the basis for creating bioplastics. More growing information is available in individual species entries.",
+    "slug": "potato",
+    "alternate_names": [
+      "Rīwai "
+    ],
+    "scientific_names": [
+      "Solanum tuberosum"
+    ],
+    "harvests_count": 21,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/551dbd5d3732390003620100.jpg?1428012380",
+    "scientific_name": "Solanum tuberosum",
+    "id": "164"
+  },
+  {
+    "name": "garlic",
+    "description": null,
+    "slug": "garlic",
+    "alternate_names": [],
+    "scientific_names": [
+      "Allium sativum"
+    ],
+    "harvests_count": 18,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/49221397511_6feb282787_z.jpg",
+    "scientific_name": "Allium sativum",
+    "id": "87"
+  },
+  {
+    "name": "parsley",
+    "description": null,
+    "slug": "parsley",
+    "alternate_names": [],
+    "scientific_names": [
+      "Petroselinum hortense"
+    ],
+    "harvests_count": 20,
+    "thumbnail_url": "https://farm9.staticflickr.com/8036/29681175442_7499444721_z.jpg",
+    "scientific_name": "Petroselinum hortense",
+    "id": "143"
+  },
+  {
+    "name": "spinach",
+    "description": "Spinach is an annual plant whose deep green leaves are eaten as a vegetable. It grows best in cooler weather. It can be eaten raw or cooked.",
+    "slug": "spinach",
+    "alternate_names": [],
+    "scientific_names": [
+      "Spinacia oleracea"
+    ],
+    "harvests_count": 16,
+    "thumbnail_url": "https://farm5.staticflickr.com/4468/37445770554_930c99da1e_z.jpg",
+    "scientific_name": "Spinacia oleracea",
+    "id": "199"
+  },
+  {
+    "name": "sage",
+    "description": "Sage is an evergreen shrub with woody stems, soft green-gray leaves, and blue to purplish flowers. It is in the Mint family (Lamiaceae), and is perennial in Zones 4-8. It can be used fresh or dried, and has culinary and medicinal uses.",
+    "slug": "sage",
+    "alternate_names": [
+      "common sage",
+      "garden sage"
+    ],
+    "scientific_names": [
+      "Salvia officinalis"
+    ],
+    "harvests_count": 21,
+    "thumbnail_url": "https://farm5.staticflickr.com/4406/37371266672_117c2814c9_z.jpg",
+    "scientific_name": "Salvia officinalis",
+    "id": "187"
+  },
+  {
+    "name": "zucchini",
+    "description": null,
+    "slug": "zucchini",
+    "alternate_names": [
+      "courgette",
+      "baby marrow"
+    ],
+    "scientific_names": [
+      "Cucurbita pepo.",
+      "Cucurbita pepo var. cylindrica"
+    ],
+    "harvests_count": 14,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/58cee6acaea93d0004000009.jpg?1489954465",
+    "scientific_name": "Cucurbita pepo.",
+    "id": "231"
+  },
+  {
+    "name": "chives",
+    "description": "Chives are a perennial herb in the Allium genus related to garlic, shallots, leeks, scallions, and Chinese onions. They are grown for culinary and ornamental purposes. The scapes or stems are hollow and tubular and have a mild onion taste. They are one of the fines herbes of French cuisine and commonly used fresh. The plant forms dense clusters of slender 2-3cm bulbs, which can be cooked. Chive flowers are edible, star-shaped, and pale purple. Chives are a good companion plant because their sulfur compounds repel negative insects, and their flowers attract bees.",
+    "slug": "chives",
+    "alternate_names": [],
+    "scientific_names": [
+      "Allium schoenoprasum"
+    ],
+    "harvests_count": 21,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/54b4b79a6130650002100000.jpg?1421129624",
+    "scientific_name": "Allium schoenoprasum",
+    "id": "54"
+  },
+  {
+    "name": "thyme",
+    "description": "Thyme is a perennial evergreen herb in the Lamiaceae (Mint) family. It is related to Oregano. Thyme is cold-hardy to -28.8 °C and a perennial in US Hardiness zones 5-8. Thyme can live for 5-6 years but needs to be divided or replaced after 3-4 years. It can be used fresh or dried to season dishes.",
+    "slug": "thyme",
+    "alternate_names": [],
+    "scientific_names": [
+      "Thymus mongolicus",
+      "Thymus"
+    ],
+    "harvests_count": 15,
+    "thumbnail_url": "https://farm8.staticflickr.com/7328/9502198639_a78530bae1_z.jpg",
+    "scientific_name": "Thymus mongolicus",
+    "id": "214"
+  },
+  {
+    "name": "oregano",
+    "description": null,
+    "slug": "oregano",
+    "alternate_names": [
+      "wild marjoram"
+    ],
+    "scientific_names": [
+      "Origanum vulgare"
+    ],
+    "harvests_count": 17,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59b19e6944d62e0004000003.jpg?1504812638",
+    "scientific_name": "Origanum vulgare",
+    "id": "142"
+  },
+  {
+    "name": "arugula",
+    "description": "Mildly bitter, sometimes peppery, salad green. Fast-growing with deeply lobed leaves. Prefers cooler weather, bolts in the heat.",
+    "slug": "arugula",
+    "alternate_names": [
+      "salad rocket",
+      "rucola",
+      "rucoli",
+      "rugula",
+      "colewort",
+      "roquette",
+      "rocket"
+    ],
+    "scientific_names": [
+      "Eruca sativa"
+    ],
+    "harvests_count": 14,
+    "thumbnail_url": "https://farm5.staticflickr.com/4410/37431118726_fb4e848850_z.jpg",
+    "scientific_name": "Eruca sativa",
+    "id": "15"
+  },
+  {
+    "name": "beet",
+    "description": "Typically grown for its round or cylindrical taproot, the leaves of the beet are also edible. Leaves resemble Swiss chard on a smaller scale and are good sautéed. The taproot, or beet, ranges in color from deep red to gold, orange, or white and red striped. The beet has a delicious, earthy flavor with a touch of sweetness to it when roasted.",
+    "slug": "beet",
+    "alternate_names": [
+      "beetroot",
+      "table beet",
+      "garden beet",
+      "red beet",
+      "golden beet"
+    ],
+    "scientific_names": [
+      "Beta vulgaris"
+    ],
+    "harvests_count": 9,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/49555376452_8aa8ca631f_z.jpg",
+    "scientific_name": "Beta vulgaris",
+    "id": "23"
+  },
+  {
+    "name": "bell pepper",
+    "description": null,
+    "slug": "bell-pepper",
+    "alternate_names": [
+      "sweet pepper",
+      "pepper",
+      "capsicum"
+    ],
+    "scientific_names": [
+      "capsicum annuum",
+      "capsicum annuum"
+    ],
+    "harvests_count": 9,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/54b4b04f6130650002070000.jpg?1421127757",
+    "scientific_name": "capsicum annuum",
+    "id": "24"
+  },
+  {
+    "name": "pumpkin",
+    "description": "Pumpkins are squash cultivars that are round to oval in shape with thick, slightly ribbed skin that varies from deep yellow to orange in color. Their flesh ranges from yellow to gold and has large seeds. Like other members of the Cucurbitaceae family, they grow on sprawling vines. Different varieties of pumpkins are grown for food or decoration.",
+    "slug": "pumpkin",
+    "alternate_names": [],
+    "scientific_names": [
+      "Cucurbita spp.",
+      "Cucurbita pepo var. pepo"
+    ],
+    "harvests_count": 21,
+    "thumbnail_url": "https://farm8.staticflickr.com/7882/40582320503_d3a34f7f05_z.jpg",
+    "scientific_name": "Cucurbita spp.",
+    "id": "166"
+  },
+  {
+    "name": "bean",
+    "description": null,
+    "slug": "bean",
+    "alternate_names": [],
+    "scientific_names": [
+      "Phaseolus vulgaris"
+    ],
+    "harvests_count": 6,
+    "thumbnail_url": "https://farm5.staticflickr.com/4489/24249862908_14aee34111_z.jpg",
+    "scientific_name": "Phaseolus vulgaris",
+    "id": "22"
+  },
+  {
+    "name": "mint",
+    "description": "Mint is a perennial herb with a distinctive taste. It's stems are square-shaped and it has pink, purple, or white flowers. Peppermint, ginger mint, and large apple mint are hybrids of mint. Mint is often grown in pots to prevent it from overtaking the garden with its invasive, spreading rhizome root structure. It's leaves are most aromatic before the plant flowers and can be used fresh, dried, or frozen. Mint's strongly scented leaves confuse the pests of carrots, tomatoes, alliums, and brassicas, and deter flea beetles.",
+    "slug": "mint",
+    "alternate_names": [
+      "spearmint",
+      "spear mint"
+    ],
+    "scientific_names": [
+      "Mentha spicata",
+      "Mentha"
+    ],
+    "harvests_count": 9,
+    "thumbnail_url": "https://farm4.staticflickr.com/3709/9617748025_28fd126d79_z.jpg",
+    "scientific_name": "Mentha spicata",
+    "id": "131"
+  },
+  {
+    "name": "corn",
+    "description": "Corn is a large grain plant, or tall grass, first domesticated about 10,000 years ago by indigenous peoples in Southern Mexico. The leafy stalk produces ears after pollination. Depending on the variety, the corn can be eaten fresh, or dried and ground into cornmeal.",
+    "slug": "corn",
+    "alternate_names": [
+      "maize"
+    ],
+    "scientific_names": [
+      "Zea mays"
+    ],
+    "harvests_count": 9,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/49355550212_7db5d0383c_z.jpg",
+    "scientific_name": "Zea mays",
+    "id": "61"
+  },
+  {
+    "name": "rhubarb",
+    "description": "Rhubarb is a perennial herbaceous plant in USDA Zones 4-8. It cannot be harvested from in the first year of planting. It has large green leaves that are poisonous and thick, red-green stalks that are edible raw or cooked. It's stalks have a strong, tart taste and are commonly used in strawberry-rhubarb pies.",
+    "slug": "rhubarb",
+    "alternate_names": [],
+    "scientific_names": [
+      "Rheum rhabarbarum"
+    ],
+    "harvests_count": 21,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/593873226d9b0f00040000c0.jpg?1496871706",
+    "scientific_name": "Rheum rhabarbarum",
+    "id": "175"
+  },
+  {
+    "name": "apple",
+    "description": "The apple is a deciduous tree in the Rose family grown for it's sweet fruit. The apple originated in Central Asia and has spread across the world. There are now over 7,500 cultivars bred for a variety of climates and characteristics. Apples are propagated through grafting because seeds do not breed true.",
+    "slug": "apple",
+    "alternate_names": [],
+    "scientific_names": [
+      "Malus domestica"
+    ],
+    "harvests_count": 7,
+    "thumbnail_url": "https://farm5.staticflickr.com/4537/38908355491_30401e777d_z.jpg",
+    "scientific_name": "Malus domestica",
+    "id": "10"
+  },
+  {
+    "name": "dill",
+    "description": null,
+    "slug": "dill",
+    "alternate_names": [],
+    "scientific_names": [
+      "Anethum graveolens"
+    ],
+    "harvests_count": 6,
+    "thumbnail_url": "https://farm1.staticflickr.com/411/18688832431_afca6e3a27_z.jpg",
+    "scientific_name": "Anethum graveolens",
+    "id": "73"
+  },
+  {
+    "name": "cauliflower",
+    "description": "Cauliflower is a vegetable in the Brassicaceae family. The solid, firm head resembles that of broccoli and is usually white, but can also be yellow, purple, or green in color. Like broccoli, it sits atop a stalk. The head is wrapped in thick leaves that begin to open when the plant is ready for harvest. All cauliflower does best in cool weather.",
+    "slug": "cauliflower",
+    "alternate_names": [
+      "Cauliflower"
+    ],
+    "scientific_names": [
+      "Brassica oleracea",
+      "Brassica oleracea Botrytis group"
+    ],
+    "harvests_count": 12,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/58c3bdf07b12f80004000012.jpg?1489223147",
+    "scientific_name": "Brassica oleracea",
+    "id": "40"
+  },
+  {
+    "name": "eggplant",
+    "description": "Eggplants commonly are egg-shaped with glossy black skin, but can come in a variety of other shapes and colors. They can be white, yellow, and pale to deep purple. Some are as small as goose eggs. The 'Rosa Bianca' cultivar is squat and round, while Asian cultivars can be long and thin. Eggplant stems are often spiny and their flowers range from white to purple. \n\nTheir flesh is generally white with a meaty texture and small seeds in the center. They are delicious grilled, roasted, in soups and stews, and breaded and fried.",
+    "slug": "eggplant",
+    "alternate_names": [
+      "aubergine",
+      "melongene",
+      "garden egg",
+      "guinea squash"
+    ],
+    "scientific_names": [
+      "Solanum melongena"
+    ],
+    "harvests_count": 5,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/49374772348_c2b26d4fb8_z.jpg",
+    "scientific_name": "Solanum melongena",
+    "id": "76"
+  },
+  {
+    "name": "snow pea",
+    "description": "Snow Peas are a variety of pea that can be eaten whole in the pod while still unripe. The flat, sweet, crisp pods are eaten fresh and added to salads and stir-fries. Like other peas, Snow Peas do best in cooler weather and benefit from inoculation just before planting. Some varieties require trellising. If trellising, increase row spacing to 1.2 m.",
+    "slug": "snow-pea",
+    "alternate_names": [
+      "mangetout"
+    ],
+    "scientific_names": [
+      "Pisum sativum var. saccharatum"
+    ],
+    "harvests_count": 9,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5a1efe21bf27d70004000002.jpg?1511980574",
+    "scientific_name": "Pisum sativum var. saccharatum",
+    "id": "260"
+  },
+  {
+    "name": "sunflower",
+    "description": "Sunflowers are large flowers with bright to deep yellow ray florets surrounding a large circular grouping of disc florets that mature into seeds. Sunflowers are grown for ornamental purposes, cut flowers, or their edible seeds. They can reach heights of 300cm or more.",
+    "slug": "sunflower",
+    "alternate_names": [],
+    "scientific_names": [
+      "Helianthus annuus"
+    ],
+    "harvests_count": 5,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5935cc53113c950004000237.jpg?1496697934",
+    "scientific_name": "Helianthus annuus",
+    "id": "205"
+  },
+  {
+    "name": "blueberry",
+    "description": "Perennial flowering plants with sweet, indigo-colored berries. Blueberry plants are usually erect, prostrate shrubs that range in height from 10cm to 4m high, depending on the cultivar.",
+    "slug": "blueberry",
+    "alternate_names": [],
+    "scientific_names": [
+      "Vaccinium sect. Cyanococcus"
+    ],
+    "harvests_count": 10,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/551dc8023732390003760100.jpg?1428015100",
+    "scientific_name": "Vaccinium sect. Cyanococcus",
+    "id": "240"
+  },
+  {
+    "name": "cabbage",
+    "description": "Cabbage is a member of the Brassica family and related to kale, broccoli, brussels sprouts, and cauliflower. It's dense, layered heads grow on stalks and are surrounded by looser outer leaves. It's leaves can be green, white, or purple in color, and smooth or crinkly in texture. Depending on the variety, the head can be round, oblong, or flat. Cabbage prefers cooler temperatures and is best planted in the spring or fall.",
+    "slug": "cabbage",
+    "alternate_names": [],
+    "scientific_names": [
+      "Brassica oleracea",
+      "Brassica oleracea Capitata group"
+    ],
+    "harvests_count": 7,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/48729824148_c67bf6657d_z.jpg",
+    "scientific_name": "Brassica oleracea",
+    "id": "33"
+  },
+  {
+    "name": "Swiss chard",
+    "description": "Swiss Chard is a leafy green vegetable in the Beet family. The thick stems come in a variety of colors including white, pink, red, yellow, orange, and pale green. Chard has large, crinkly leaves with distinctive veins. The leaves and stems are edible and high in nutrients. Swiss chard can be eaten raw, sautéed, baked, or steamed.",
+    "slug": "swiss-chard",
+    "alternate_names": [
+      "chard",
+      "silverbeet"
+    ],
+    "scientific_names": [
+      "Beta vulgaris var. cicla"
+    ],
+    "harvests_count": 7,
+    "thumbnail_url": "https://farm1.staticflickr.com/820/40125497285_676f33e5f6_z.jpg",
+    "scientific_name": "Beta vulgaris var. cicla",
+    "id": "207"
+  },
+  {
+    "name": "rainbow chard",
+    "description": "Rainbow Chard is grown from a seed mix that contains chard cultivars that have pink, yellow, orange, red, and white stems. Both the leaves and stems are edible and are delicious in salads, sautéed, and baked. Chard is related to beets.",
+    "slug": "rainbow-chard",
+    "alternate_names": [],
+    "scientific_names": [],
+    "harvests_count": 11,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/58cee032aea93d0004000000.jpg?1489952813",
+    "scientific_name": null,
+    "id": "262"
+  },
+  {
+    "name": "nasturtium",
+    "description": null,
+    "slug": "nasturtium",
+    "alternate_names": [],
+    "scientific_names": [
+      "Tropaeloum spp."
+    ],
+    "harvests_count": 7,
+    "thumbnail_url": "https://farm5.staticflickr.com/4560/38576039781_5038efc53f_z.jpg",
+    "scientific_name": "Tropaeloum spp.",
+    "id": "134"
+  },
+  {
+    "name": "common thyme",
+    "description": null,
+    "slug": "common-thyme",
+    "alternate_names": [
+      "garden thyme"
+    ],
+    "scientific_names": [
+      "Thymus vulgaris"
+    ],
+    "harvests_count": 20,
+    "thumbnail_url": "https://farm5.staticflickr.com/4418/37225374476_01e0d0b8dd_z.jpg",
+    "scientific_name": "Thymus vulgaris",
+    "id": "444"
+  },
+  {
+    "name": "leek",
+    "description": "The leek is a vegetable, a cultivar of Allium ampeloprasum, the broadleaf wild leek. The edible part of the plant is a bundle of leaf sheaths that is sometimes erroneously called a stem or stalk. Historically, many scientific names were used for leeks, but they are now all treated as cultivars of A. ampeloprasum. The name 'leek' developed from the Anglo-Saxon word \"leac\". Two closely related vegetables, elephant garlic and kurrat, are also cultivars of A. ampeloprasum, although different in their uses as food. The onion and garlic are also related, being other species of the genus Allium.\nLeeks have thick blue-green foliage. The bundle of white leaf sheaths has a mild onion taste and can be blanched, steamed, braised, or grilled and used in soups, stews, omelet fillings, and more. The leaves can be used to make stock.\n\nPlant their leeks in autumn, and they should fatten up in time for winter picking. Plant them early to ensure they have enough time to grow before winter. Leeks take up to six months to mature after transplanting.\n\nNewer cultivars have quicker maturity – three to four months. Maturity is often affected by temperature, available nutrients and water. \n\nLeeks need a soil that is rich in organic matter. Dig in compost or manure two weeks before planting. Add fertiliser every few weeks\nLeeks like aged manure, especially chicken manure, and worm castings, another excellent source of nutrients.\n\nPlant seedlings in full sun, with moist but well-drained deep soil. Raised beds are ideal. Water young plants frequently.\n\nThe white part of the leek is edible; the green is not. You can blanch the stems to increase the proportion of stem that’s edible and to sweeten the taste. Do this to fully grown leeks. Tie a paper collar around each stem and gently hill the earth up around the stem. Be careful not to get soil between the paper collar and stem as the leek may rot.\nAs the plants grow, add another collar above the first one and hill up more soil. Be aware that slugs and snails can hide in the paper collars\n\nHarvest the leeks when stems are around 2.5cm in diameter. Dig carefully around the leek and lift with a garden fork. Do not pull, as the leek is likely to break.",
+    "slug": "leek",
+    "alternate_names": [],
+    "scientific_names": [
+      "Allium ampeloprasum var. porrum"
+    ],
+    "harvests_count": 6,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/591b57fd1faea7000400000a.jpg?1494964215",
+    "scientific_name": "Allium ampeloprasum var. porrum",
+    "id": "106"
+  },
+  {
+    "name": "lavender",
+    "description": null,
+    "slug": "lavender",
+    "alternate_names": [],
+    "scientific_names": [
+      "Lavandula spp.",
+      "Lavandula"
+    ],
+    "harvests_count": 6,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/57e814cb7cf5dc000300026a.jpg?1474827466",
+    "scientific_name": "Lavandula spp.",
+    "id": "105"
+  },
+  {
+    "name": "chard",
+    "description": null,
+    "slug": "chard",
+    "alternate_names": [
+      "Swiss chard",
+      "silverbeet",
+      "crab beet",
+      "bright lights",
+      "seakale beet",
+      "mangold"
+    ],
+    "scientific_names": [
+      "Beta vulgaris subsp. cicla"
+    ],
+    "harvests_count": 8,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/48714601656_c1951475e0_z.jpg",
+    "scientific_name": "Beta vulgaris subsp. cicla",
+    "id": "244"
+  },
+  {
+    "name": "peppermint",
+    "description": null,
+    "slug": "peppermint",
+    "alternate_names": [],
+    "scientific_names": [
+      "Mentha x piperita",
+      "Mentha piperita"
+    ],
+    "harvests_count": 10,
+    "thumbnail_url": "https://farm1.staticflickr.com/427/32197234854_348b1a4da8_z.jpg",
+    "scientific_name": "Mentha x piperita",
+    "id": "153"
+  },
+  {
+    "name": "spring onion",
+    "description": "Spring onions resemble scallions in appearance and flavor, but they are actually very young storage onions. Yellow, red, or white storage onions are pulled out of the ground before the standard harvest date, when their skins are still thin and they are mild in flavor. Their bulbs and greens can be eaten fresh or cooked.",
+    "slug": "scallion",
+    "alternate_names": [
+      "green onion",
+      "scallion",
+      "salad onion",
+      "table onion",
+      "green shallot",
+      "onion stick",
+      "long onion",
+      "baby onion",
+      "precious onion",
+      "yard onion",
+      "gibbon",
+      "syboe",
+      "scally onion"
+    ],
+    "scientific_names": [
+      "Allium"
+    ],
+    "harvests_count": 10,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/58cf33b2aea93d0004000017.jpg?1489974189",
+    "scientific_name": "Allium",
+    "id": "295"
+  },
+  {
+    "name": "capsicum",
+    "description": "Capiscum is a genus of flowering plants in the nightshade family Solanaceae that produces peppers. The Capiscum genus contains 20-27 species of peppers which vary in color, shape, size, and heat. 5 species are domesticated. Most peppers are green when unripe and change color as the fruit matures. The fruit of most species contains capsaicin, which gives hot peppers their spiciness. Bell peppers (Capsicum annuum) are an exception: they do not contain capsaicin due to a recessive gene, and are therefore not spicy. The Scoville scale is used to measure the relative heat of peppers. Bell peppers have a rating of 0-25 Scoville Heat Units (SHU), jalapenos are between 2,500-10,000 SHU. All peppers, regardless of species, prefer a long, warm growing season and well-drained soil high in organic matter. Seeds can be started indoors 8-10 weeks before hardening off and transplanting. In cooler climates, it can be preferable to grow peppers in containers indoors to extend the growing season and prevent frost from killing plants. Peppers have an upright growing habit and can benefit from staking to help the plant support the fruits.",
+    "slug": "capsicum",
+    "alternate_names": [],
+    "scientific_names": [
+      "Capsicum"
+    ],
+    "harvests_count": 7,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/49739516128_2805e7fcc5_z.jpg",
+    "scientific_name": "Capsicum",
+    "id": "306"
+  },
+  {
+    "name": "celery",
+    "description": "The celery plant has long fibrous stalks that taper into leaves. The stalks and leaves can both be eaten. Celery seed is also used as a spice. Celery seed extracts are used in medicines.",
+    "slug": "celery",
+    "alternate_names": [],
+    "scientific_names": [
+      "Apium graveolens"
+    ],
+    "harvests_count": 6,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b75b8fe8d7500030002f7.jpg?1466660278",
+    "scientific_name": "Apium graveolens",
+    "id": "43"
+  },
+  {
+    "name": "lemon",
+    "description": null,
+    "slug": "lemon",
+    "alternate_names": [],
+    "scientific_names": [
+      "Citrus limon"
+    ],
+    "harvests_count": 5,
+    "thumbnail_url": "https://farm1.staticflickr.com/110/250984062_cc3d4842d7_z.jpg",
+    "scientific_name": "Citrus limon",
+    "id": "107"
+  },
+  {
+    "name": "mesclun lettuce",
+    "description": null,
+    "slug": "mesclum",
+    "alternate_names": [
+      "mesclun"
+    ],
+    "scientific_names": [],
+    "harvests_count": 14,
+    "thumbnail_url": "https://farm1.staticflickr.com/791/41553247722_9b912e2d99_z.jpg",
+    "scientific_name": null,
+    "id": "595"
+  },
+  {
+    "name": "frilly lettuce",
+    "description": null,
+    "slug": "frilly-lettuce",
+    "alternate_names": [
+      ""
+    ],
+    "scientific_names": [
+      ""
+    ],
+    "harvests_count": 13,
+    "thumbnail_url": "https://farm8.staticflickr.com/7820/33684374548_d1b8bf481a_z.jpg",
+    "scientific_name": "",
+    "id": "641"
+  },
+  {
+    "name": "Welsh onion",
+    "description": "The Welsh Onion, or Bunching Onion, is a perennial species of onion native to China that is now grown around the world. Welsh Onions are very similar in taste and appearance to the common onion, Allium cepa. Large Welsh Onions resemble leeks and small ones look like chives. The main difference is that the stems of the Welsh Onion are hollow and their bulbs are barely thicker than their stems, which is why they are sometimes described as being \"bulb-less.\" Plants form perennial clumps, which can be divided to propagate more onions. Welsh Onions can be grown as an annual in cooler regions where the plants cannot overwinter.",
+    "slug": "welsh-onion",
+    "alternate_names": [
+      "Japanese bunching onion",
+      "green onion",
+      "spring onion",
+      "scallion",
+      "escallion",
+      "salad onion"
+    ],
+    "scientific_names": [
+      "Allium fistulosum"
+    ],
+    "harvests_count": 20,
+    "thumbnail_url": "https://farm5.staticflickr.com/4548/38639391902_a7c14e5315_z.jpg",
+    "scientific_name": "Allium fistulosum",
+    "id": "296"
+  },
+  {
+    "name": "artichoke",
+    "description": "The globe artichoke is a variety of a species of thistle cultivated as a food. The budding artichoke flower-head is the edible part of the plant. It is a cluster of many budding small flowers (known as an \"inflorescence\") and bracts on an edible base. Once the buds bloom the head becomes coarse and barely edible. Artichokes are perennials in Zone 7 and warmer. They normally produce edible flower-heads during their second year, but recent cultivars such as 'Imperial Star' have been bred to produce in the first year. Other cultivars, such as 'Northern Star', have been bred to overwinter in more northern climates. There are green and purple varieties of artichoke. They are often steamed, sautéed or braised, but can also be eaten raw.",
+    "slug": "artichoke",
+    "alternate_names": [],
+    "scientific_names": [
+      "Cynara cardunculus"
+    ],
+    "harvests_count": 7,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/49331460518_dfcf9c8d87_z.jpg",
+    "scientific_name": "Cynara cardunculus",
+    "id": "14"
+  },
+  {
+    "name": "squash",
+    "description": "Squash is a genus of herbaceous vines that have large edible orange flowers that mature into gourds or cucurbits. Squash are commonly divided into two main groups: summer and winter. Summer squash have shorter growing times, a bushy growth habit, tender skin, and are quite prolific. Common types include cucumbers, zucchini, and pattypan squash. Winter squash take longer to mature, have a more sprawling growth habit, and produce gourds with thicker skins that can be stored for a few months. Common winter squash are pumpkins, butternut squash, acorn, and delicata. Most squash transplant poorly. If starting from seed indoors, use peat pots that can be directly transplanted into the soil to reduce root disturbance. More growing information is available in individual species entries.",
+    "slug": "squash",
+    "alternate_names": [],
+    "scientific_names": [
+      "Curcurbita",
+      "Cucurbita"
+    ],
+    "harvests_count": 8,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/54b4a9046130650002010000.jpg?1421125890",
+    "scientific_name": "Curcurbita",
+    "id": "251"
+  },
+  {
+    "name": "romaine lettuce",
+    "description": "Romaine is a variety of lettuce that grows into a dense, tall head. It's leaves are light to bright green and have firm ribs down their centers. It is more tolerant of heat than most lettuces.",
+    "slug": "romaine-lettuce",
+    "alternate_names": [
+      "cos lettuce"
+    ],
+    "scientific_names": [
+      "Lactuca sativa var. longifolia"
+    ],
+    "harvests_count": 6,
+    "thumbnail_url": "https://farm1.staticflickr.com/905/42175915472_59a1b84da0_z.jpg",
+    "scientific_name": "Lactuca sativa var. longifolia",
+    "id": "370"
+  },
+  {
+    "name": "watercress",
+    "description": "Watercress is a semi-aquatic to aquatic perennial plant in the Brassica family whose leaves and stems have a clean, slightly peppery taste. In the wild, Watercress favors moderately cool climates and grows partially submerged in running water and flooded areas. It is one of the oldest known leaf vegetables eaten by humans. Watercress can be cultivated hydroponically, in containers, or in soil that is kept constantly wet. It can be harvested as sprouts or leaves.",
+    "slug": "watercress",
+    "alternate_names": [],
+    "scientific_names": [
+      "Nasturtium officinale"
+    ],
+    "harvests_count": 14,
+    "thumbnail_url": "https://farm2.staticflickr.com/1881/43632020255_9bee95eedc_z.jpg",
+    "scientific_name": "Nasturtium officinale",
+    "id": "299"
+  },
+  {
+    "name": "bok choy",
+    "description": "A type of Chinese cabbage that does not form a head. It has smooth, dark or light green leaf blades and crisp white stalks that form a cluster similar to mustard greens or celery. It is often harvested while still small and tender, when it is around 10cm high. Winter hardy. Row spacing depends on desired harvest size.",
+    "slug": "bok-choy",
+    "alternate_names": [
+      "chinese cabbage"
+    ],
+    "scientific_names": [
+      "Brassica rapa chinensis"
+    ],
+    "harvests_count": 3,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/58c9b339f577a400040000af.jpg?1489613612",
+    "scientific_name": "Brassica rapa chinensis",
+    "id": "236"
+  },
+  {
+    "name": "New Zealand yam",
+    "description": "Yams grown in New Zealand originate from the South American Andes where they are known as oca. The sweet tubers are small, often about the size of a thumb, are pink-orange in colour and have a slightly shiny and ribbed surface.",
+    "slug": "new-zealand-yam",
+    "alternate_names": [
+      "oca",
+      "uqa"
+    ],
+    "scientific_names": [
+      "Oxalis tuberosa"
+    ],
+    "harvests_count": 9,
+    "thumbnail_url": "https://farm1.staticflickr.com/980/41349894864_2e9552415f_z.jpg",
+    "scientific_name": "Oxalis tuberosa",
+    "id": "569"
+  },
+  {
+    "name": "feijoa",
+    "description": "Feijoa, Pineapple Guava, or Guavasteen, is a perennial, evergreen shrub in the Myrtle (Myrtaceae) family. It is native to the temperate highlands and mountains of Brazil, Paraguay, Uruguay, northern Argentina, and Colombia. Feijoa is grown for it's fruits, which resemble small guavas, and as an ornamental. Feijoas are best planted from grafted saplings (as opposed to starting from seed) and will mature into a sprawling shrub if not pruned. They can also be grown in containers. They will produce fruit within 3-4 years of being transplanted. Most Feijoas are not self-fertile. The bright red flowers require pollination by 2-3 Feijoa trees of another variety nearby. The small fruit are green, ellipsoid, and the size of an egg. They taste like a cross between pineapple, apple, and mint, and have a clear, gelatinous seed pulp at the center surrounded by a firmer, slightly gritty opaque flesh. The fruit is eaten raw or added to smoothies. The edible flower petals can be added to salads. Fruit is best when allowed to ripen on the tree. A tarp or large cloth can be hung around the tree to catch fruit when it falls and prevent bruising. Feijoa requires between 100-200 hours of chilling during the winter and produces tastier fruit at moderate summer temperatures between 25-32°C. Summer temperatures above 32°C can negatively affect fruit set. Feijoa is somewhat drought tolerant.",
+    "slug": "feijoa",
+    "alternate_names": [
+      "pineapple guava",
+      "guavasteen"
+    ],
+    "scientific_names": [
+      "Acca sellowiana"
+    ],
+    "harvests_count": 17,
+    "thumbnail_url": "https://farm4.staticflickr.com/3944/33216952734_c6701acf60_z.jpg",
+    "scientific_name": "Acca sellowiana",
+    "id": "81"
+  },
+  {
+    "name": "habanero pepper",
+    "description": "Habaneros are a very hot chili pepper variety that have a rating of 100,000-350,000 Scoville units and a floral aroma. The fruit is green when unripe. Various cultivars turn orange, red, white, brown, yellow, or purple as they ripen. Ripe fruit are typically 2-6 cm long.",
+    "slug": "habanero",
+    "alternate_names": [],
+    "scientific_names": [
+      "Capsicum chinense"
+    ],
+    "harvests_count": 7,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/40742571343_46b4809e14_z.jpg",
+    "scientific_name": "Capsicum chinense",
+    "id": "94"
+  },
+  {
+    "name": "flat leaf parsley",
+    "description": null,
+    "slug": "flat-leaf-parsley",
+    "alternate_names": [],
+    "scientific_names": [
+      "Petroselinum crispum"
+    ],
+    "harvests_count": 10,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/48562741541_31db21272a_z.jpg",
+    "scientific_name": "Petroselinum crispum",
+    "id": "685"
+  },
+  {
+    "name": "fava bean",
+    "description": "The fava, or broad bean, is a species of flowering plant in the vetch and pea family Fabaceae. Unlike most beans, fava beans thrive in cooler weather and do not require trellising. They should be planted in early spring as soon as the soil can be worked. The broad, leathery pods contain 3-8 beans and grow on stiff stems that can reach heights of 1.8m.  Fava are planted for their edible beans, or as a cover crop to reduce winter erosion and increase nitrogen in the soil. Inoculants can increase yield and nitrogen production. The pods are commonly harvested while young, when they are about 15cm long. Fava beans are eaten in a myriad of ways: raw in salads, grilled, roasted, fried, pureed, and more.",
+    "slug": "fava-bean",
+    "alternate_names": [
+      "broad bean",
+      "fava bean",
+      "field bean",
+      "bell bean",
+      "tic bean"
+    ],
+    "scientific_names": [
+      "Vicia faba"
+    ],
+    "harvests_count": 6,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/50001392327_23b0d8c579_z.jpg",
+    "scientific_name": "Vicia faba",
+    "id": "80"
+  },
+  {
+    "name": "cayenne pepper",
+    "description": "Cayenne peppers are a cultivar of Capsicum annuum. They are members of the nightshade family, Solanaceae, and related to tomatoes and eggplant. The upright plants produce long, thin, red fruit that can be up to 25cm long. Cayenne peppers have a Scoville rating of 30,000 to 50,000 units and are slightly hotter than jalapenos. They are generally dried and ground to make cayenne spice, but they can also be used whole or in a thin, vinegar-based sauce.",
+    "slug": "cayenne-pepper",
+    "alternate_names": [
+      "Guinea spice",
+      "cow-horn pepper",
+      "aleva",
+      "bird pepper",
+      "red pepper"
+    ],
+    "scientific_names": [
+      "Capsicum annuum",
+      "Capsicum annuum"
+    ],
+    "harvests_count": 3,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/49427544873_0d785fce80_z.jpg",
+    "scientific_name": "Capsicum annuum",
+    "id": "41"
+  },
+  {
+    "name": "chayote",
+    "description": "Chayote is a tender perennial in the Cucurbitaceae family grown for its edible gourds, roots, stems, and leaves. Unlike other cucurbits like squash, cucumbers, and melons, Chayote's small gourds have a single, large, flattened seed or pit. Some varieties have spiny fruits. Chayote is native to Mesoamerica and thrives in a subtropical to tropical climate, although it can be grown in other regions in containers. It needs 120-150 frost-free days to reach harvest. Like cucumbers, it has a sprawling growth pattern and benefits from trellising - fruit will rot if it sits on the soil. It's pale green fruit can be 10-20cm long and resembles a flattened, wrinkled pear. It's green to white flesh has a mild taste like a cross between a potato and a cucumber. It is usually lightly cooked like summer squash. The tubers are starchy and eaten like potatoes. The shoots and heart-shaped leaves can be added to salads and stir-fries.",
+    "slug": "chayote",
+    "alternate_names": [
+      "christophene",
+      "christophine",
+      "cho-cho",
+      "mirliton",
+      "merleton",
+      "chuchu",
+      "pear squash",
+      "vegetable pear",
+      "chouchoute",
+      "choko",
+      "ishkus",
+      "chowchow"
+    ],
+    "scientific_names": [
+      "Sechium edule"
+    ],
+    "harvests_count": 13,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59d3d18935bc1f0004000257.jpg?1507053959",
+    "scientific_name": "Sechium edule",
+    "id": "46"
+  },
+  {
+    "name": "New Zealand spinach",
+    "description": "New Zealand Spinach is a warm-weather spinach alternative that is not directly related to spinach, but has a similar flavor and texture. The plant has a bushy, spreading habit and pointed, succulent, bright green leaves. Leaves can be eaten fresh in salads or cooked like spinach. Unlike spinach, New Zealand Spinach thrives in warm temperatures and will not survive the first hard frost. Seeds germinate slowly and benefit from being soaked before planting.",
+    "slug": "new-zealand-spinach",
+    "alternate_names": [],
+    "scientific_names": [
+      "Tetragonia tetragonioides"
+    ],
+    "harvests_count": 6,
+    "thumbnail_url": "https://farm1.staticflickr.com/907/41610081771_8bdbfeeed6_z.jpg",
+    "scientific_name": "Tetragonia tetragonioides",
+    "id": "135"
+  },
+  {
+    "name": "asparagus",
+    "description": "Perennial spring vegetable often sown from crowns. The vegetable has a mild flavor with earthy undertones. When mature and reproducing, the plant creates tall, stout stems with feathery foliage and small red berries.",
+    "slug": "asparagus",
+    "alternate_names": [],
+    "scientific_names": [
+      "Asparagus officinalis"
+    ],
+    "harvests_count": 2,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/49315126477_ec52a84b05_z.jpg",
+    "scientific_name": "Asparagus officinalis",
+    "id": "16"
+  },
+  {
+    "name": "iceberg letture",
+    "description": null,
+    "slug": "iceberg-letture",
+    "alternate_names": [],
+    "scientific_names": [
+      "Lactuca sativa"
+    ],
+    "harvests_count": 7,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/49337710008_2cc6826fa8_z.jpg",
+    "scientific_name": "Lactuca sativa",
+    "id": "634"
+  },
+  {
+    "name": "shallot",
+    "description": "Shallots are a type of small onion with a subtle, distinguished flavor. The bulb is covered in papery red skin tinted rust, gold, or purple and has a tapered oblong shape with multiple cloves. They can be used fresh or dried in a variety of dishes.",
+    "slug": "shallot",
+    "alternate_names": [],
+    "scientific_names": [
+      "Allium cepa var. aggregatum"
+    ],
+    "harvests_count": 5,
+    "thumbnail_url": "https://farm5.staticflickr.com/4837/33002425528_a9a34bd5da_z.jpg",
+    "scientific_name": "Allium cepa var. aggregatum",
+    "id": "193"
+  },
+  {
+    "name": "endive",
+    "description": "Curly Endive is a narrow-leaved member of the Chicory family (versus Escarole, which is broad-leaved). It grows in loose heads of narrow, green, lacey leaves with curled tips. The head is often tied together when it is 25cm tall to blanch the inner leaves. The outer leaves have a slightly bitter flavor, and the inner leaves have a subtle sweetness and more delicate texture. All of the leaves sweeten slightly with frost or cooking. Curly Endive can be eaten raw in salads or cooked in soups, stews, and other dishes.",
+    "slug": "endive",
+    "alternate_names": [],
+    "scientific_names": [
+      "Cichorium endivia"
+    ],
+    "harvests_count": 8,
+    "thumbnail_url": "https://farm5.staticflickr.com/4479/37445769544_1e7ce5d639_z.jpg",
+    "scientific_name": "Cichorium endivia",
+    "id": "78"
+  },
+  {
+    "name": "scots potato",
+    "description": "An old cultivar sent to Koanga Institute by a Scotsman who says it came Aotearoa New Zealand with his family from the homeland. It is pink-skinned and white-fleshed.\n\nAn old cultivar sent to us by a Scotsman who says it came to this land with is family from the homeland. They are round with shallow eyes, pink-skinned, white-fleshed and has a delicious flavour and texture, tasty and mealy when boiled....... also This potato comes from Henry Harrington’s early life around Akaroa, as a descendant of the de Malmanche French settlers. It is a large rock-like potato with few but deep eyes and a light purple/ pink blush under the skin. It is a fluffy potato, so it is best boiled, or mashed, and has a good flavour.",
+    "slug": "potato-scots",
+    "alternate_names": [
+      "riwai kotimana",
+      "Scotts potato",
+      "Akaroa",
+      "Uwhi"
+    ],
+    "scientific_names": [],
+    "harvests_count": 11,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/49603490616_77e14246f3_z.jpg",
+    "scientific_name": null,
+    "id": "710"
+  },
+  {
+    "name": "tomatillo",
+    "description": "The tomatillo is a member of the Nightshade family. The plant bears a resemblance to tomato plants and benefits from pruning and trellising. The fruit of the tomatillo plant is small, round, and green or purple. It is covered in a paper husk that splits open when the fruit is ready for harvest. Tomatillos are native to Mexico and can be eaten raw or cooked. They have a citrusy, tart, and tangy lemon flavor.",
+    "slug": "tomatillo",
+    "alternate_names": [
+      "husk tomato",
+      "mexican husk tomato"
+    ],
+    "scientific_names": [
+      "Physalis philadelphica"
+    ],
+    "harvests_count": 3,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/54ab00e16635390002000000.jpg?1420493020",
+    "scientific_name": "Physalis philadelphica",
+    "id": "215"
+  },
+  {
+    "name": "sorrel",
+    "description": "Sorrel is a hardy perennial herb that produces some of the earliest spring and latest fall greens. The plant has deep roots and long, wide, tapering leaves with juicy stems. Leaves have a sour, tangy, lemony taste and are delicious in salads, soups, and sandwiches. In the summer, Sorrel will bolt, producing reddish-green flowers and setting seed. This bolting can be reduced by harvesting consistently. Even if Sorrel sets seed in the summer, it will produce another set of edible leaves in the fall.",
+    "slug": "sorrel",
+    "alternate_names": [
+      "common sorrel",
+      "garden sorrel",
+      "spinach dock",
+      "narrow-leaved dock"
+    ],
+    "scientific_names": [
+      "Rumex acetosa"
+    ],
+    "harvests_count": 3,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5a1f015ebf27d70004000003.jpg?1511981402",
+    "scientific_name": "Rumex acetosa",
+    "id": "195"
+  },
+  {
+    "name": "perpetual spinach",
+    "description": null,
+    "slug": "perpetual-spinach",
+    "alternate_names": [
+      "spinach beet"
+    ],
+    "scientific_names": [
+      "Beta vulgaris subsp. vulgaris"
+    ],
+    "harvests_count": 5,
+    "thumbnail_url": "https://farm3.staticflickr.com/2848/32703695563_2c95a88946_z.jpg",
+    "scientific_name": "Beta vulgaris subsp. vulgaris",
+    "id": "263"
+  },
+  {
+    "name": "butterhead lettuce",
+    "description": null,
+    "slug": "butterhead-lettuce",
+    "alternate_names": [
+      ""
+    ],
+    "scientific_names": [
+      ""
+    ],
+    "harvests_count": 8,
+    "thumbnail_url": "https://farm8.staticflickr.com/7859/32504985567_ffd382c8fb_z.jpg",
+    "scientific_name": "",
+    "id": "642"
+  },
+  {
+    "name": "brandywine tomato",
+    "description": "The Brandywine tomato plant is an heirloom cultivar of the species, with large potato-leaved foliage and which bears large pink beefsteak-shaped fruit, popularly considered among the best tasting available.  Brandywine tomatoes can bear fruit up to 1.5 lbs (0.7 kg), requiring 80 to 100 days to reach maturity, making it among the slowest maturing varieties of common tomato cultivars. Brandywine has been described as having a \"great tomatoey flavor\"",
+    "slug": "brandywine-tomato",
+    "alternate_names": [],
+    "scientific_names": [
+      "Solanum lycopersicum"
+    ],
+    "harvests_count": 5,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/49664432733_24168084ef_z.jpg",
+    "scientific_name": "Solanum lycopersicum",
+    "id": "393"
+  },
+  {
+    "name": "runner bean",
+    "description": "The Runner, or Multiflora, Bean is a vining plant in the Fabaceae (legume) family that is native to Central America. It is sometimes called the Butter Bean, which can also refer to the Lima Bean, a separate species. The Runner Bean differs from other beans in that it can be grown as a perennial where the ground does not freeze. Runner Beans are grown for their edible beans and as an ornamental: plants produce brilliant red flowers that attract hummingbirds and multicolored seeds. Some varieties have white flowers. The seed pods have a knife-like shape and are usually green, but some purple cultivars exist. Pods are 15-30cm long and contain 6-10 2.5cm seeds. Different varieties have different colored seeds. Seeds can eaten fresh or as dried beans, but must be cooked to remove toxins. Blooms can be added to salads. Young pods can be cooked like green beans. Roots are eaten by indigenous peoples in Central America. Runner Beans benefit from trellising.",
+    "slug": "runner-bean",
+    "alternate_names": [
+      "scarlet runner bean",
+      "multiflora bean"
+    ],
+    "scientific_names": [
+      "Phaseolus coccineus"
+    ],
+    "harvests_count": 5,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5a1c9eb06dd6c00004000003.jpg?1511825055",
+    "scientific_name": "Phaseolus coccineus",
+    "id": "182"
+  },
+  {
+    "name": "mustard",
+    "description": null,
+    "slug": "mustard",
+    "alternate_names": [],
+    "scientific_names": [
+      "Brassica juncea"
+    ],
+    "harvests_count": 2,
+    "thumbnail_url": "https://farm1.staticflickr.com/823/41299892375_844c8be2c6_z.jpg",
+    "scientific_name": "Brassica juncea",
+    "id": "133"
+  },
+  {
+    "name": "pepper",
+    "description": null,
+    "slug": "chilli-pepper",
+    "alternate_names": [],
+    "scientific_names": [],
+    "harvests_count": 3,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/49996379843_45a871ba61_z.jpg",
+    "scientific_name": null,
+    "id": "676"
+  },
+  {
+    "name": "red lettuce",
+    "description": null,
+    "slug": "red-lettuce",
+    "alternate_names": [],
+    "scientific_names": [],
+    "harvests_count": 8,
+    "thumbnail_url": "https://farm8.staticflickr.com/7923/46767516354_27147a083a_z.jpg",
+    "scientific_name": null,
+    "id": "730"
+  },
+  {
+    "name": "Island Bay tomato",
+    "description": null,
+    "slug": "island-bay-tomato",
+    "alternate_names": [],
+    "scientific_names": [],
+    "harvests_count": 12,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/51027416538_d532dcb428_z.jpg",
+    "scientific_name": null,
+    "id": "819"
+  },
+  {
+    "name": "Common Fig",
+    "description": "The fig is a perennial, flowering, deciduous shrub or small tree in the Mulberry (Moraceae) family. Figs are native to the Middle East and western Asia and are grown for their fruit, which are also known as figs, and as an ornamental plant. In the right climate, they can grow as tall as 10 meters, but they can also be grown in containers and brought indoors in the winter in cooler regions. The plant has smooth white bark, deeply lobed fragrant leaves, and multiple, spreading trunks. Flowers are often pollinated by fig wasps, and develop into 3-5cm long fruit with green skin that, depending on the variety, can ripen to a deep purple. Figs need to ripen fully on the tree before harvest. They are ripe when they droop and are soft to the touch. If they ooze a white sap when they are pulled from the tree, they are not ripe. Fig trees have an aggressive root system that searches for groundwater in aquifers, ravines, and cracks in rocks. Once established, they can tolerate seasonal drought and are affected by few pests. Figs are propagated through cuttings or division, and generally produce fruit the year after planting. In warmer climates, they can produce two crops, one in early summer, and the other in fall.",
+    "slug": "fig",
+    "alternate_names": [
+      "common fig"
+    ],
+    "scientific_names": [
+      "Ficus carica"
+    ],
+    "harvests_count": 2,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59e69963a4beeb00040000c9.jpg?1508284765",
+    "scientific_name": "Ficus carica",
+    "id": "85"
+  },
+  {
+    "name": "cape gooseberry",
+    "description": "Cape Gooseberries, or Physalis, are a plant species in the genus Physalis and family Solanaceae. They have slightly velvety heart-shaped leaves and produce smooth bright yellow or orange berries wrapped in a papery husk or calyx. They are originally from Peru and are related to tomatillos and husk/ground cherries. Cape Gooseberries grow well without fertilizer and in sandy to poor soils, but they need to be protected from wind. The fruit is sweet with a mildly tart flavor, tastes a bit like pineapple, and can be eaten raw, made into jams, or baked into pies. Unripe fruits are poisonous, harvest when the husk has lost color and dried out.",
+    "slug": "cape-gooseberry",
+    "alternate_names": [
+      "Cape gooseberry",
+      "Inca berry",
+      "Aztec berry",
+      "golden berry",
+      "giant ground cherry",
+      "African ground cherry",
+      "Peruvian groundcherry",
+      "Peruvian cherry",
+      "love-in-a-cage",
+      "physalis"
+    ],
+    "scientific_names": [
+      "Physalis peruviana"
+    ],
+    "harvests_count": 4,
+    "thumbnail_url": "https://farm1.staticflickr.com/112/302623167_027083e595_z.jpg",
+    "scientific_name": "Physalis peruviana",
+    "id": "34"
+  },
+  {
+    "name": "butternut squash",
+    "description": "Butternut squash is a winter squash cultivar that produces long squash with smooth, tan-yellow skin and a rounded compartment of seeds at the bottom. Flesh is deep orange and firm with a sweet, nutty taste. Butternut squash becomes deeper orange and sweeter and richer as it ripens. Like other squash, it grows on sprawling vines. If starting seeds indoors, use peat pots and directly transplant them into the soil to reduce root disturbance. Harvest squash before any hard frosts and cure. Winter squash can be stored for up to 3 months in a cool, dry, well-ventilated place.",
+    "slug": "butternut-squash",
+    "alternate_names": [
+      "butternut pumpkin"
+    ],
+    "scientific_names": [
+      "Cucurbita moschata"
+    ],
+    "harvests_count": 3,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/58c9b4c0f577a400040000b3.jpg?1489614009",
+    "scientific_name": "Cucurbita moschata",
+    "id": "265"
+  },
+  {
+    "name": "catnip",
+    "description": "Catnip is a herbaceous perennial in the mint family, Lamiaceae. It resembles mint, with triangular, coarse-toothed leaves, square stems, and small, pink, white, purple, or blue flowers. Like mint, it can become invasive, so it is best planted in containers. Catnip is used an ornamental, to make herbal tea, and as a companion plant. It is deer-resistant and attracts beneficial insects like bees and butterflies and deters pests like flea beetles, Japanese beetles, aphids, weevils, ants, squash bugs and mice. It also attracts cats because it contains the chemical nepetalactone, which can cause cats to enter a brief state of euphoria.",
+    "slug": "catnip",
+    "alternate_names": [
+      "catmint",
+      "catswort"
+    ],
+    "scientific_names": [
+      "Nepeta cataria"
+    ],
+    "harvests_count": 2,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59bc511c9a146200040000c9.jpg?1505513754",
+    "scientific_name": "Nepeta cataria",
+    "id": "39"
+  },
+  {
+    "name": "mizuna",
+    "description": "Mizuna is a cool weather salad green in the Brassica family. It has a mild, slightly peppery taste and heavily serrated, feathery leaves. Leaves can be harvested at their baby or adult sizes, between 7 and 15cm. Be sure to harvest before the plant flowers. Leaves can be eaten raw in salads and on sandwiches, sautéed, or stir-fried.",
+    "slug": "mizuna",
+    "alternate_names": [
+      "shui cai",
+      "kyona",
+      "Japanese mustard",
+      "potherb mustard",
+      "Japanese greens",
+      "California peppergrass",
+      "spider mustard"
+    ],
+    "scientific_names": [
+      "Brassica rapa nipposinica",
+      "Brassica juncea var. japonica"
+    ],
+    "harvests_count": 4,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/60113858c18af600044bcd7e.jpg?1611741261",
+    "scientific_name": "Brassica rapa nipposinica",
+    "id": "235"
+  },
+  {
+    "name": "spearmint",
+    "description": "Spearmint is a variety of mint that has a more delicate, sweet flavor than Peppermint. Like Peppermint, Spearmint is a perennial herb with square-shaped stems and pink, purple, or white flowers. Mint is often grown in pots to prevent it from overtaking the garden with its invasive, spreading rhizome root structure. The leaves are most aromatic before the plant flowers and can be used fresh, dried, or frozen. Mint's strongly scented leaves confuse the pests of carrots, tomatoes, alliums, and brassicas, and deter flea beetles.",
+    "slug": "spearmint",
+    "alternate_names": [
+      "spear mint"
+    ],
+    "scientific_names": [
+      "Mentha spicata"
+    ],
+    "harvests_count": 1,
+    "thumbnail_url": "https://farm8.staticflickr.com/7381/9621827551_0ee73feab2_z.jpg",
+    "scientific_name": "Mentha spicata",
+    "id": "198"
+  },
+  {
+    "name": "bay laurel",
+    "description": "Bay Laurel is an aromatic evergreen tree or large shrub native to the Mediterranean. It can be grown in soil or in containers. It has glossy dark green leaves, \nyellow flowers, and dark purplish-black fruits. The plant's leaves are used as seasoning in cooking and are best harvested in the morning when the fragrance oils are strongest. Bay Laurel can also be grown as an ornamental or topiary. Plant trees in an area where they are protected from wind to prevent cold winter winds from damaging foliage.",
+    "slug": "bay",
+    "alternate_names": [
+      "bay laurel",
+      "sweet bay",
+      "bay",
+      "true laurel",
+      "Grecian laurel",
+      "laurel tree",
+      "laurel"
+    ],
+    "scientific_names": [
+      "Laurus nobilis"
+    ],
+    "harvests_count": 2,
+    "thumbnail_url": "https://farm1.staticflickr.com/331/18627165708_20b6274b79_z.jpg",
+    "scientific_name": "Laurus nobilis",
+    "id": "21"
+  },
+  {
+    "name": "wild mint",
+    "description": null,
+    "slug": "wild-mint",
+    "alternate_names": [
+      "field mint",
+      "corn mint"
+    ],
+    "scientific_names": [
+      "Mentha arvensis"
+    ],
+    "harvests_count": 5,
+    "thumbnail_url": "https://farm3.staticflickr.com/2046/2059007316_f2cdfe060b_z.jpg",
+    "scientific_name": "Mentha arvensis",
+    "id": "451"
+  },
+  {
+    "name": "lettuce leaf basil",
+    "description": null,
+    "slug": "lettuce-leaf-basil",
+    "alternate_names": [],
+    "scientific_names": [
+      "Ocimum basilicum"
+    ],
+    "harvests_count": 5,
+    "thumbnail_url": "https://farm66.staticflickr.com/65535/49456928672_01ffd36d47_z.jpg",
+    "scientific_name": "Ocimum basilicum",
+    "id": "521"
+  },
+  {
+    "name": "peach",
+    "description": "The peach tree is a deciduous tree native to Northwest China that produces stone, or drupe, fruits. It belongs to the genus Prunus which includes the cherry, apricot, almond, and plum. The peach is classified with the almond in the subgenus Amygdalus because their stones are corrugated rather than smooth. Peaches and nectarines are the same species - nectarines have a recessive gene that makes their skin smooth rather than fuzzy. Cultivated peaches are divided into two groups: clingstones and freestones, depending on whether the flesh sticks to the stone or not. Peaches can have white or yellow fuzzy skin. Yellow peaches usually have an acidic tang coupled with sweetness. White peaches are very sweet with little acidity. Most cultivars require 500 hours of chilling around 0 to 10 °C during the winter, and hot temperatures in the summer to ripen fruit. Some varieties are self-pollinating, while others require pollination by a peach tree of another variety with the same bloom period within 50 feet. Peaches should be thinned to 7-12cm apart when fruit are 2-3cm in diameter to increase mature fruit size. Standard and dwarf rootstocks are available. Dwarf trees can grow to 3 meters, standard to 4.5 meters. Depending on the size chosen, the tree will bear fruit within 2-4 years of planting.",
+    "slug": "peach",
+    "alternate_names": [],
+    "scientific_names": [
+      "Prunus persica"
+    ],
+    "harvests_count": 5,
+    "thumbnail_url": "https://farm5.staticflickr.com/4156/34301504501_36ea3d3822_z.jpg",
+    "scientific_name": "Prunus persica",
+    "id": "147"
+  },
+  {
+    "name": "aloe vera",
+    "description": "Aloe Vera is an evergreen succulent with thick, fleshy leaves with serrated edges. It can be grown outdoors in USDA Plant Hardiness Zones 9-11 or indoors anywhere. Like all succulents, Aloe Vera does best with bright light and in arid conditions. Aloe is often grown for ornamental and medicinal uses: the juice from it's leaves is frequently applied to sunburns and other wounds.",
+    "slug": "aloe-vera",
+    "alternate_names": [],
+    "scientific_names": [
+      "Aloe vera"
+    ],
+    "harvests_count": 3,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5939d1c501f8790004000000.jpg?1496961474",
+    "scientific_name": "Aloe vera",
+    "id": "254"
+  },
+  {
+    "name": "beefsteak tomato",
+    "description": null,
+    "slug": "beefsteak-tomato",
+    "alternate_names": [],
+    "scientific_names": [
+      "Solanum lycopersicum"
+    ],
+    "harvests_count": 3,
+    "thumbnail_url": "https://farm3.staticflickr.com/2882/33348205936_261a964c76_z.jpg",
+    "scientific_name": "Solanum lycopersicum",
+    "id": "388"
+  },
+  {
+    "name": "portobello",
+    "description": "Portobello mushrooms are the mature version of white button mushrooms. They have a meaty flavor and are delicious grilled, sautéed, stuffed, and in soups and stir frys. To grow Portobellos, you will need portobello spores and partially decomposed compost and peat moss. They can be grown outside or indoors. Portobellos can be grown indoors year-round because temperature, moisture, and light can be controlled.",
+    "slug": "common-mushroom",
+    "alternate_names": [
+      "button mushroom",
+      "white mushroom",
+      "cultivated mushroom",
+      "table mushroom",
+      "champignon mushroom",
+      "Swiss brown mushroom",
+      "Roman brown mushroom",
+      "Italian brown",
+      "Italian mushroom",
+      "cremini mushroom",
+      "crimini mushroom",
+      "brown cap mushroom",
+      "chestnut mushroom",
+      "portobello mushroom",
+      "common mushroom"
+    ],
+    "scientific_names": [
+      "Agaricus bisporus"
+    ],
+    "harvests_count": 7,
+    "thumbnail_url": "https://farm9.staticflickr.com/8342/8180578749_6206464c47_z.jpg",
+    "scientific_name": "Agaricus bisporus",
+    "id": "304"
+  },
+  {
+    "name": "brussels sprouts",
+    "description": "Brussels sprouts grow on the sides of stalks up to 91cm tall. The stalks are covered with leaves and the sprouts look like miniature cabbages. They are a cool weather crop and are delicious roasted.",
+    "slug": "brussels-sprout",
+    "alternate_names": [],
+    "scientific_names": [
+      "Brassica oleracea"
+    ],
+    "harvests_count": 1,
+    "thumbnail_url": "https://farm5.staticflickr.com/4320/35841400690_dc0a174a29_z.jpg",
+    "scientific_name": "Brassica oleracea",
+    "id": "31"
+  },
+  {
+    "name": "plum",
+    "description": "The plum is a fruit of the subgenus Prunus of the genus Prunus. The Prunus genus also includes the cherry, apricot, almond, and peach. Within the subgenus Prunus, there are many species. The two largest species groups are European Plums (Prunus domestica) and Japanese Plums (Prunus salicina). Apricots are also classified as a section of the Prunus subgenus. The skin of plums can be coated with a waxy bloom or it can be shiny. Plums can be purple, green, yellow, or red. Shape varies from oval to globular. Plums can be dried to make prunes. European Plums require 800-900 hours of chilling during the winter, Japanese Plums require 300-500. Some varieties are self-pollinating, but all plum trees benefit from a pollination partner with the same bloom time within 15 meters. Standard and dwarf rootstocks are available. Dwarf trees can grow to 3 meters, standard to 4.5 meters. Depending on the size chosen, the tree will bear fruit within 3-6 years of planting.",
+    "slug": "plum",
+    "alternate_names": [],
+    "scientific_names": [
+      "Prunus spp."
+    ],
+    "harvests_count": 1,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/54b4af6c6130650002060000.jpg?1421127529",
+    "scientific_name": "Prunus spp.",
+    "id": "161"
+  },
+  {
+    "name": "raspberry",
+    "description": "Raspberries are a perennial plant with erect to trailing canes that often have spines or thorns. The plants produce fruit in their second year of growth, but some \"primocane\" varieties exist that flower and fruit their first year. Canes are light green to blue in hue with alternate, compound leaves. Fruits are sweet, many-seeded, and hollow.",
+    "slug": "raspberry",
+    "alternate_names": [
+      "red raspberry",
+      "European raspberry"
+    ],
+    "scientific_names": [
+      "Rubus idaeus"
+    ],
+    "harvests_count": 0,
+    "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b8fa8fe8d75000300043f.jpg?1466666918",
+    "scientific_name": "Rubus idaeus",
+    "id": "174"
+  },
+  {
+    "name": "broccolini",
+    "description": null,
+    "slug": "broccolini",
+    "alternate_names": [
+      "tenderstem broccoli",
+      "broccolette"
+    ],
+    "scientific_names": [
+      "Brassica oleracea Capitata group x Alboglabra Group"
+    ],
+    "harvests_count": 5,
+    "thumbnail_url": "https://farm5.staticflickr.com/4789/39789127945_ee337b4df8_z.jpg",
+    "scientific_name": "Brassica oleracea Capitata group x Alboglabra Group",
+    "id": "484"
+  },
+  {
+    "name": "genovese basil",
+    "description": null,
+    "slug": "genovese-basil",
+    "alternate_names": [],
+    "scientific_names": [
+      "ocimum basilicum"
+    ],
+    "harvests_count": 1,
+    "thumbnail_url": "https://farm5.staticflickr.com/4276/34997009072_4b1598f6a9_z.jpg",
+    "scientific_name": "ocimum basilicum",
+    "id": "520"
+  }
+]
