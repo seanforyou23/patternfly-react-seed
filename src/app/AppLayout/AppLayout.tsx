@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { NavLink, useLocation, useHistory } from 'react-router-dom';
 import {
+  Button,
   Nav,
   NavList,
   NavItem,
@@ -12,6 +13,7 @@ import {
 } from '@patternfly/react-core';
 import { routes, IAppRoute, IAppRouteGroup } from '@app/routes';
 import logo from '@app/bgimages/Patternfly-Logo.svg';
+import '@app/AppLayout/AppLayout.css';
 
 interface IAppLayout {
   children: React.ReactNode;
@@ -21,6 +23,8 @@ const AppLayout: React.FunctionComponent<IAppLayout> = ({ children }) => {
   const [isNavOpen, setIsNavOpen] = React.useState(true);
   const [isMobileView, setIsMobileView] = React.useState(true);
   const [isNavOpenMobile, setIsNavOpenMobile] = React.useState(false);
+  const history = useHistory();
+
   const onNavToggleMobile = () => {
     setIsNavOpenMobile(!isNavOpenMobile);
   };
@@ -31,19 +35,16 @@ const AppLayout: React.FunctionComponent<IAppLayout> = ({ children }) => {
     setIsMobileView(props.mobileView);
   };
 
-  function LogoImg() {
-    const history = useHistory();
-    function handleClick() {
-      history.push('/');
-    }
-    return (
-      <img src={logo} onClick={handleClick} alt="PatternFly Logo" />
-    );
-  }
-
   const Header = (
     <PageHeader
-      logo={<LogoImg />}
+      logoComponent={Button}
+      logo={<>🌱 PATTERNFLY</>}
+      logoProps={{
+        onClick: () => history.push('/'),
+        variant: 'link',
+        isInline: true,
+        className: 'logoLink'
+      }}
       showNavToggle
       isNavOpen={isNavOpen}
       onNavToggle={isMobileView ? onNavToggleMobile : onNavToggle}
