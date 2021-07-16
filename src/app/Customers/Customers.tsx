@@ -26,25 +26,43 @@ const Customers: React.FunctionComponent = () => {
   const getContributors = () => fetch('/customers');
 
   React.useEffect(() => {
-    getContributors().then((result) => {
-      console.log('result?', result);
-      return result.json();
-    }).then(data => {
-      console.log('data?', data);
-      alert('got data!');
-      // setHasData(data);
-      return data;
+
+    fetch('/customers-api/customers', {
+      // method: 'GET', // or 'PUT'
+      // headers: {
+      //   'Content-Type': 'application/json',
+      // },
+      // body: JSON.stringify(data),
     })
-    .catch(error => {
-      console.log('there was an error!', error);
+    .then(response => response.json())
+    .then(data => {
+      console.log('Success:', data);
+      setHasData(data)
     })
+    .catch((error) => {
+      console.error('Error:', error);
+    });
+
+
+    // getContributors().then((result) => {
+    //   console.log('result?', result);
+    //   return result.json();
+    // }).then(data => {
+    //   console.log('data?', data);
+    //   alert('got data!');
+    //   // setHasData(data);
+    //   return data;
+    // })
+    // .catch(error => {
+    //   console.log('there was an error!', error);
+    // })
   }, []);
 
-  // React.useEffect(() => {
-  //   console.log('hasData', hasData);
-  // }, [hasData]);
+  React.useEffect(() => {
+    console.log('hasData', hasData);
+  }, [hasData]);
 
-  const getUsers = () => fetch('/users');
+  const getUsers = () => fetch('/users-api/users');
 
   React.useEffect(() => {
     getUsers().then((result) => {

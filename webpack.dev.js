@@ -17,6 +17,13 @@ module.exports = merge(common('development'), {
     historyApiFallback: true,
     overlay: true,
     open: true,
+    proxy: [
+      {
+        // NOTE: Any future backend-only routes added to deploy/main.js need to be listed here:
+        context: ['/users-api', '/customers-api'],
+        target: `http://localhost:8080`,
+      },
+    ],
     // proxy: [
     //   // {
     //   //   context: [

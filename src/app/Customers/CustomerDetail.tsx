@@ -19,11 +19,11 @@ let CustomerDetail: React.FunctionComponent<ICustomerDetailProps> = (props) => {
   const [userData, setUserData] = React.useState<any>();
 
   // @ts-ignore
-  const getUserData = () => fetch(`https://reqres.in/api/users/${props.computedMatch.params.id}`)
+  // const getUserData = () => fetch(`https://reqres.in/api/users/${props.computedMatch.params.id}`)
 
-  React.useEffect(() => {
-    getUserData().then((result) => result.json()).then(data => setUserData(data.data));
-  }, []);
+  // React.useEffect(() => {
+  //   getUserData().then((result) => result.json()).then(data => setUserData(data.data));
+  // }, []);
 
   return (
     <PageSection>
