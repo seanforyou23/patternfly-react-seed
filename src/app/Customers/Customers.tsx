@@ -23,11 +23,41 @@ const Customers: React.FunctionComponent = () => {
 
   const history = useHistory();
 
-  const getContributors = () => fetch('https://reqres.in/api/users');
+  const getContributors = () => fetch('/customers');
 
   React.useEffect(() => {
-    getContributors().then((result) => result.json()).then(data => {
-      setHasData(data.data);
+    getContributors().then((result) => {
+      console.log('result?', result);
+      return result.json();
+    }).then(data => {
+      console.log('data?', data);
+      alert('got data!');
+      // setHasData(data);
+      return data;
+    })
+    .catch(error => {
+      console.log('there was an error!', error);
+    })
+  }, []);
+
+  // React.useEffect(() => {
+  //   console.log('hasData', hasData);
+  // }, [hasData]);
+
+  const getUsers = () => fetch('/users');
+
+  React.useEffect(() => {
+    getUsers().then((result) => {
+      console.log('result?', result);
+      return result.json();
+    }).then(data => {
+      console.log('data?', data);
+      alert('got data!');
+      // setHasData(data);
+      return data;
+    })
+    .catch(error => {
+      console.log('there was an error!', error);
     })
   }, []);
 
@@ -36,7 +66,7 @@ const Customers: React.FunctionComponent = () => {
       <TextContent>
         <Title headingLevel="h1" className="pf-u-mb-sm">Customer resource list</Title>
       </TextContent>
-      {hasData !== [] && <Gallery hasGutter>{
+      {/* {hasData !== [] && <Gallery hasGutter>{
         (hasData.map((data, idx) => {
           return (
             <GalleryItem key={idx}>
@@ -64,7 +94,7 @@ const Customers: React.FunctionComponent = () => {
           )
         }))}
       </Gallery>
-      }
+      } */}
 
     </PageSection>
   )

@@ -16,7 +16,21 @@ module.exports = merge(common('development'), {
     inline: true,
     historyApiFallback: true,
     overlay: true,
-    open: true
+    open: true,
+    // proxy: [
+    //   // {
+    //   //   context: [
+    //   //     'http://gateway.fedev.10.19.2.21.nip.io:30862/customers'
+    //   //   ],
+    //   //   target: `http://localhost:${PORT}`
+    //   // }
+    //   // {
+    //   //   context: [
+    //   //     '/customers'
+    //   //   ],
+    //   //   target: `http://localhost:8080/customers`
+    //   // }
+    // ]
   },
   module: {
     rules: [
