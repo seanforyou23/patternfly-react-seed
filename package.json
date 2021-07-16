@@ -10,7 +10,7 @@
     "prebuild": "npm run clean",
     "dr:surge": "node dr-surge.js",
     "build": "webpack --config webpack.prod.js && npm run dr:surge",
-    "start:api": "nodemon server.js",
+    "start:api": "nodemon --inspect server.js",
     "start:dev": "webpack serve --color --progress --config webpack.dev.js",
     "test": "jest --watch",
     "test:coverage": "jest --coverage",
